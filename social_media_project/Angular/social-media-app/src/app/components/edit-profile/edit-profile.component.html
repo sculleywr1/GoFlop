@@ -1,0 +1,77 @@
+<div class="modal-header">
+    <h4 class="modal-title">Editing {{this.editUser.username}}'s Profile</h4>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<div class="modal-body">
+    <div class="jumbotron rounded p-3">
+        <form>
+            <!-- current password -->
+            <div class="form-group">
+                <label class="font-weight-bold" for="curr_password">Current Password: Required</label>
+                <input [(ngModel)]="curr_password" required name="curr_password" type="password" class="form-control"
+                    id="curr_password" placeholder="Required">
+            </div>
+            <!-- firstname -->
+            <div class="form-group">
+                <label class="font-weight-bold" for="this.editUser.firstname">First Name</label>
+                <input [(ngModel)]="this.editUser.firstName" name="this.editUser.firstname" type="text"
+                    class="form-control" id="fname_edit" placeholder="First Name">
+            </div>
+            <!-- lastname -->
+            <div class="form-group">
+                <label class="font-weight-bold" for="lname_edit">First Name</label>
+                <input [(ngModel)]="this.editUser.lastName" name="lname_edit" type="text" class="form-control"
+                    id="lname_edit" placeholder="Last Name">
+            </div>
+            <!-- Gender -->
+            <div class="form-group">
+                <label class="font-weight-bold" for="gender_edit">Gender</label>
+                <select [(ngModel)]="this.editUser.gender" name="gender_edit" type="text" class="form-control"
+                    id="gender_edit">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <!-- DOB -->
+            <div class="form-group">
+                <label class="font-weight-bold" for="dob">Date Of Birth</label>
+                <input [(ngModel)]="this.editUser.dOB" name="dob" type="date" class="form-control"
+                    id="dob">
+            </div>
+            <!-- email -->
+            <div class="form-group">
+                <label class="font-weight-bold" for="email_edit">Email</label>
+                <input [(ngModel)]="this.editUser.userEmail" name="email_edit" type="text" class="form-control"
+                    id="email_edit" placeholder="email@email.com">
+            </div>
+            <!-- new password -->
+            <div class="form-group">
+                <label class="font-weight-bold" for="new_password1">New Password</label>
+                <input [(ngModel)]="new_password1" required name="new_password1" type="password" class="form-control"
+                    id="new_password1" placeholder="New Password">
+            </div>
+            <!-- confirm new pw -->
+            <div class="form-group">
+                <label class="font-weight-bold" for="new_password2">Confirm New Password</label>
+                <input [(ngModel)]="new_password2" required name="new_password2" type="password" class="form-control"
+                    id="new_password2" placeholder="Confirm new Passowrd">
+            </div>
+            <!-- profile picture -->
+            <div class="form-group">
+                <label class="font-weight-bold" for="new_img">Profile Image</label>
+                <input (change)="this.onFileChange($event)" name="new_img" type="file" accept="image/*"
+                    class="form-control" id="new_img">
+                <!-- [(ngModel)]="new_img" -->
+            </div>
+
+        </form>
+    </div>
+</div>
+<div class="modal-footer">
+    <!-- (click)="activeModal.close('Close click')"  -->
+    <button type="button" class="btn btn-outline-dark" (click)="confirmChanges()"> Update </button>
+    <button type="button" class="btn btn-outline-dark" (click)="activeModal.close('Close click')">Cancel</button>
+</div>

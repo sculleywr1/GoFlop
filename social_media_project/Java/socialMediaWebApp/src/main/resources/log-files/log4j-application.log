@@ -1,0 +1,1303 @@
+2021-11-01 12:40:18 DEBUG logging:28 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2021-11-01 12:40:18 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2021-11-01 12:40:18 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2021-11-01 12:40:18 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2021-11-01 12:40:18 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.0.Final
+2021-11-01 12:40:18 DEBUG Environment:199 - HHH000206: hibernate.properties not found
+2021-11-01 12:40:18 DEBUG Configuration:742 - Building session factory using internal StandardServiceRegistryBuilder
+2021-11-01 12:40:18 DEBUG ServiceBinding:68 - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2021-11-01 12:40:18 DEBUG Configuration:672 - Building session factory using provided StandardServiceRegistry
+2021-11-01 12:40:18 DEBUG RegionFactoryInitiator:118 - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2021-11-01 12:40:18 DEBUG RegionFactoryInitiator:49 - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2021-11-01 12:40:18 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration boolean -> org.hibernate.type.BooleanType@62371858
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration boolean -> org.hibernate.type.BooleanType@62371858
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@62371858
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@4e67f0a0
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@66851c18
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration yes_no -> org.hibernate.type.YesNoType@77524169
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration byte -> org.hibernate.type.ByteType@1082883b
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration byte -> org.hibernate.type.ByteType@1082883b
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@1082883b
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration character -> org.hibernate.type.CharacterType@1b09f4fb
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration char -> org.hibernate.type.CharacterType@1b09f4fb
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@1b09f4fb
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration short -> org.hibernate.type.ShortType@68c9cf93
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration short -> org.hibernate.type.ShortType@68c9cf93
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@68c9cf93
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration integer -> org.hibernate.type.IntegerType@28cfbcc
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration int -> org.hibernate.type.IntegerType@28cfbcc
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@28cfbcc
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration long -> org.hibernate.type.LongType@3c0640fa
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration long -> org.hibernate.type.LongType@3c0640fa
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@3c0640fa
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration float -> org.hibernate.type.FloatType@2c332922
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration float -> org.hibernate.type.FloatType@2c332922
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@2c332922
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration double -> org.hibernate.type.DoubleType@3d123d10
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration double -> org.hibernate.type.DoubleType@3d123d10
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@3d123d10
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@3a5922ec
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@3a5922ec
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@45add64c
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@45add64c
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration string -> org.hibernate.type.StringType@3c2b7322
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.String -> org.hibernate.type.StringType@3c2b7322
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@3c2406dd
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@3b4a77be
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration url -> org.hibernate.type.UrlType@6e6bb211
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@6e6bb211
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration Duration -> org.hibernate.type.DurationType@6d821475
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@6d821475
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration Instant -> org.hibernate.type.InstantType@43376a03
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@43376a03
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@64d49e35
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@64d49e35
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@7859bd9a
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@7859bd9a
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@77510da
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@77510da
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@53b10e9a
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@53b10e9a
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@36f2bfe6
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@36f2bfe6
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@3f7030b5
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@3f7030b5
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration date -> org.hibernate.type.DateType@55154761
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@55154761
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration time -> org.hibernate.type.TimeType@439acac0
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@439acac0
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration timestamp -> org.hibernate.type.TimestampType@40f53ea
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@40f53ea
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@40f53ea
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@8cc5602
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration calendar -> org.hibernate.type.CalendarType@67d6b0a6
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@67d6b0a6
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@67d6b0a6
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@7c8d382e
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@1098c1b1
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration locale -> org.hibernate.type.LocaleType@517594dd
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@517594dd
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration currency -> org.hibernate.type.CurrencyType@749ebc39
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@749ebc39
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@113ba21
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@113ba21
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration class -> org.hibernate.type.ClassType@61cf142f
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@61cf142f
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@47cce306
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@47cce306
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@795d43d9
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration binary -> org.hibernate.type.BinaryType@2005d3e0
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration byte[] -> org.hibernate.type.BinaryType@2005d3e0
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration [B -> org.hibernate.type.BinaryType@2005d3e0
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@34ccce55
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@34ccce55
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@34ccce55
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration row_version -> org.hibernate.type.RowVersionType@f507d33
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration image -> org.hibernate.type.ImageType@7a1148f2
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration characters -> org.hibernate.type.CharArrayType@74f6237
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration char[] -> org.hibernate.type.CharArrayType@74f6237
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration [C -> org.hibernate.type.CharArrayType@74f6237
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@3fc2197d
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@3fc2197d
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@3fc2197d
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration text -> org.hibernate.type.TextType@98dc042
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration ntext -> org.hibernate.type.NTextType@324c3ed5
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration blob -> org.hibernate.type.BlobType@36117f63
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@36117f63
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@34949460
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration clob -> org.hibernate.type.ClobType@7dbe9654
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@7dbe9654
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration nclob -> org.hibernate.type.NClobType@2845fd12
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@2845fd12
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@67231d8d
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@32107bba
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration serializable -> org.hibernate.type.SerializableType@4d53dfb7
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration object -> org.hibernate.type.ObjectType@64236be
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@64236be
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@113a7d12
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@3c739a9b
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@299022a9
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@7dfbdcfe
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@3f6bfcbe
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@1f6c0e8a
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@37c1e2a4
+2021-11-01 12:40:19 DEBUG BasicTypeRegistry:157 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@14fed48e
+2021-11-01 12:40:19 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2021-11-01 12:40:19 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2021-11-01 12:40:19 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2021-11-01 12:40:19 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2021-11-01 12:40:19 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2021-11-01 12:40:19 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2021-11-01 12:40:19 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2021-11-01 12:40:19 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2021-11-01 12:40:19 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2021-11-01 12:40:19 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2021-11-01 12:40:19 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2021-11-01 12:40:19 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2021-11-01 12:40:19 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2021-11-01 12:40:19 DEBUG DefaultIdentifierGeneratorFactory:99 - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2021-11-01 12:40:20 DEBUG JdbcEnvironmentInitiator:72 - Database ->
+       name : PostgreSQL
+    version : 13.4
+      major : 13
+      minor : 4
+2021-11-01 12:40:20 DEBUG JdbcEnvironmentInitiator:83 - Driver ->
+       name : PostgreSQL JDBC Driver
+    version : 42.2.23
+      major : 42
+      minor : 2
+2021-11-01 12:40:20 DEBUG JdbcEnvironmentInitiator:389 - JDBC version : 4.2
+2021-11-01 12:40:20 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-11-01 12:40:20 DEBUG IdentifierHelperBuilder:114 - JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+2021-11-01 12:40:20 DEBUG Namespace:51 - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2021-11-01 12:40:20 DEBUG BasicTypeRegistry:157 - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@4be8c1bb
+2021-11-01 12:40:20 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.UUID -> org.hibernate.type.PostgresUUIDType@4be8c1bb
+2021-11-01 12:40:20 DEBUG BasicTypeRegistry:160 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@47cce306
+2021-11-01 12:40:20 DEBUG TypeConfiguration$Scope:149 - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@3c9cd930] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@5dcbdcb9]
+2021-11-01 12:40:20 DEBUG AnnotationBinder:559 - Binding entity from annotated class: socialMediaWebApp.models.Account
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2021-11-01 12:40:20 DEBUG EntityBinder:431 - Import with entity name Account
+2021-11-01 12:40:20 DEBUG EntityBinder:874 - Bind entity socialMediaWebApp.models.Account on table User_Account_Table
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User_Account_Table), mappingColumn=user_id, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [socialMediaWebApp.models.Account] is safe
+2021-11-01 12:40:20 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : socialMediaWebApp.models.Account
+2021-11-01 12:40:20 DEBUG PropertyBinder:175 - MetadataSourceProcessor property userId with lazy=false
+2021-11-01 12:40:20 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [socialMediaWebApp.models.Account:userId]
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:410 - building SimpleValue for userId
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property userId
+2021-11-01 12:40:20 DEBUG BinderHelper:643 - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(user_id)]), userId, identity, , ...)
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User_Account_Table), mappingColumn=user_dob, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG PropertyBinder:175 - MetadataSourceProcessor property dOB with lazy=false
+2021-11-01 12:40:20 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [socialMediaWebApp.models.Account:dOB]
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:410 - building SimpleValue for dOB
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property dOB
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User_Account_Table), mappingColumn=user_display_name, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG PropertyBinder:175 - MetadataSourceProcessor property displayName with lazy=false
+2021-11-01 12:40:20 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [socialMediaWebApp.models.Account:displayName]
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:410 - building SimpleValue for displayName
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property displayName
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User_Account_Table), mappingColumn=user_first_name, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG PropertyBinder:175 - MetadataSourceProcessor property firstName with lazy=false
+2021-11-01 12:40:20 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [socialMediaWebApp.models.Account:firstName]
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:410 - building SimpleValue for firstName
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property firstName
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User_Account_Table), mappingColumn=user_gender, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG PropertyBinder:175 - MetadataSourceProcessor property gender with lazy=false
+2021-11-01 12:40:20 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [socialMediaWebApp.models.Account:gender]
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:410 - building SimpleValue for gender
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property gender
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User_Account_Table), mappingColumn=user_last_name, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG PropertyBinder:175 - MetadataSourceProcessor property lastName with lazy=false
+2021-11-01 12:40:20 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [socialMediaWebApp.models.Account:lastName]
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:410 - building SimpleValue for lastName
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property lastName
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='likedId'}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User_Account_Table), mappingColumn=likedPosts, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User_Account_Table), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User_Account_Table), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User_Account_Table), mappingColumn=likedPosts_KEY, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3JoinColumn{logicalColumnName='likedPosts_KEY', referencedColumn='null', mappedBy='null'}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='likedId'}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='likedId'}
+2021-11-01 12:40:20 DEBUG CollectionBinder:449 - Collection role: socialMediaWebApp.models.Account.likedPosts
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property likedPosts
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='postCommentId'}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User_Account_Table), mappingColumn=myComments, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User_Account_Table), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User_Account_Table), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User_Account_Table), mappingColumn=myComments_KEY, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3JoinColumn{logicalColumnName='myComments_KEY', referencedColumn='null', mappedBy='null'}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='postCommentId'}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='postCommentId'}
+2021-11-01 12:40:20 DEBUG CollectionBinder:449 - Collection role: socialMediaWebApp.models.Account.myComments
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property myComments
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='postId'}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User_Account_Table), mappingColumn=myPosts, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User_Account_Table), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User_Account_Table), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User_Account_Table), mappingColumn=myPosts_KEY, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3JoinColumn{logicalColumnName='myPosts_KEY', referencedColumn='null', mappedBy='null'}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='postId'}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='postId'}
+2021-11-01 12:40:20 DEBUG CollectionBinder:449 - Collection role: socialMediaWebApp.models.Account.myPosts
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property myPosts
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User_Account_Table), mappingColumn=user_password, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG PropertyBinder:175 - MetadataSourceProcessor property password with lazy=false
+2021-11-01 12:40:20 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [socialMediaWebApp.models.Account:password]
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:410 - building SimpleValue for password
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property password
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User_Account_Table), mappingColumn=user_profile_pic_url, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG PropertyBinder:175 - MetadataSourceProcessor property profilePicURL with lazy=false
+2021-11-01 12:40:20 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [socialMediaWebApp.models.Account:profilePicURL]
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:410 - building SimpleValue for profilePicURL
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property profilePicURL
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User_Account_Table), mappingColumn=user_email, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG PropertyBinder:175 - MetadataSourceProcessor property userEmail with lazy=false
+2021-11-01 12:40:20 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [socialMediaWebApp.models.Account:userEmail]
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:410 - building SimpleValue for userEmail
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property userEmail
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User_Account_Table), mappingColumn=user_username, insertable=true, updatable=true, unique=true}
+2021-11-01 12:40:20 DEBUG PropertyBinder:175 - MetadataSourceProcessor property username with lazy=false
+2021-11-01 12:40:20 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [socialMediaWebApp.models.Account:username]
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:410 - building SimpleValue for username
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property username
+2021-11-01 12:40:20 DEBUG AnnotationBinder:559 - Binding entity from annotated class: socialMediaWebApp.models.LikedPost
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2021-11-01 12:40:20 DEBUG EntityBinder:431 - Import with entity name LikedPost
+2021-11-01 12:40:20 DEBUG EntityBinder:874 - Bind entity socialMediaWebApp.models.LikedPost on table user_liked_posts
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_liked_posts), mappingColumn=likedId, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [socialMediaWebApp.models.LikedPost] is safe
+2021-11-01 12:40:20 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : socialMediaWebApp.models.LikedPost
+2021-11-01 12:40:20 DEBUG PropertyBinder:175 - MetadataSourceProcessor property likedId with lazy=false
+2021-11-01 12:40:20 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [socialMediaWebApp.models.LikedPost:likedId]
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:410 - building SimpleValue for likedId
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property likedId
+2021-11-01 12:40:20 DEBUG BinderHelper:643 - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(likedId)]), likedId, identity, , ...)
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3JoinColumn{logicalColumnName='liked_post', referencedColumn='', mappedBy=''}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_liked_posts), mappingColumn=likedPost, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property likedPost
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3JoinColumn{logicalColumnName='liking_account_Id', referencedColumn='', mappedBy=''}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_liked_posts), mappingColumn=myAccount, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property myAccount
+2021-11-01 12:40:20 DEBUG AnnotationBinder:559 - Binding entity from annotated class: socialMediaWebApp.models.Post
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2021-11-01 12:40:20 DEBUG EntityBinder:431 - Import with entity name Post
+2021-11-01 12:40:20 DEBUG EntityBinder:874 - Bind entity socialMediaWebApp.models.Post on table Users_Post_Table
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users_Post_Table), mappingColumn=post_id, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [socialMediaWebApp.models.Post] is safe
+2021-11-01 12:40:20 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : socialMediaWebApp.models.Post
+2021-11-01 12:40:20 DEBUG PropertyBinder:175 - MetadataSourceProcessor property postId with lazy=false
+2021-11-01 12:40:20 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [socialMediaWebApp.models.Post:postId]
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:410 - building SimpleValue for postId
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property postId
+2021-11-01 12:40:20 DEBUG BinderHelper:643 - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(post_id)]), postId, identity, , ...)
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users_Post_Table), mappingColumn=post_contents, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG PropertyBinder:175 - MetadataSourceProcessor property contents with lazy=false
+2021-11-01 12:40:20 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [socialMediaWebApp.models.Post:contents]
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:410 - building SimpleValue for contents
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property contents
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users_Post_Table), mappingColumn=post_number_likes, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG PropertyBinder:175 - MetadataSourceProcessor property likes with lazy=false
+2021-11-01 12:40:20 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [socialMediaWebApp.models.Post:likes]
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:410 - building SimpleValue for likes
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property likes
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='postCommentId'}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users_Post_Table), mappingColumn=postComments, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users_Post_Table), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users_Post_Table), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users_Post_Table), mappingColumn=postComments_KEY, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3JoinColumn{logicalColumnName='postComments_KEY', referencedColumn='null', mappedBy='null'}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='postCommentId'}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='postCommentId'}
+2021-11-01 12:40:20 DEBUG CollectionBinder:449 - Collection role: socialMediaWebApp.models.Post.postComments
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property postComments
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users_Post_Table), mappingColumn=post_date, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG PropertyBinder:175 - MetadataSourceProcessor property postDate with lazy=false
+2021-11-01 12:40:20 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [socialMediaWebApp.models.Post:postDate]
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:410 - building SimpleValue for postDate
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property postDate
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users_Post_Table), mappingColumn=post_pic_url, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG PropertyBinder:175 - MetadataSourceProcessor property postURL with lazy=false
+2021-11-01 12:40:20 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [socialMediaWebApp.models.Post:postURL]
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:410 - building SimpleValue for postURL
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property postURL
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3JoinColumn{logicalColumnName='user_Id', referencedColumn='', mappedBy=''}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users_Post_Table), mappingColumn=poster, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property poster
+2021-11-01 12:40:20 DEBUG AnnotationBinder:559 - Binding entity from annotated class: socialMediaWebApp.models.PostComment
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2021-11-01 12:40:20 DEBUG EntityBinder:431 - Import with entity name PostComment
+2021-11-01 12:40:20 DEBUG EntityBinder:874 - Bind entity socialMediaWebApp.models.PostComment on table Post_Comment
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Post_Comment), mappingColumn=post_comment_Id, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [socialMediaWebApp.models.PostComment] is safe
+2021-11-01 12:40:20 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : socialMediaWebApp.models.PostComment
+2021-11-01 12:40:20 DEBUG PropertyBinder:175 - MetadataSourceProcessor property postCommentId with lazy=false
+2021-11-01 12:40:20 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [socialMediaWebApp.models.PostComment:postCommentId]
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:410 - building SimpleValue for postCommentId
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property postCommentId
+2021-11-01 12:40:20 DEBUG BinderHelper:643 - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(post_comment_Id)]), postCommentId, identity, , ...)
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Post_Comment), mappingColumn=post_comment_contents, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG PropertyBinder:175 - MetadataSourceProcessor property comment with lazy=false
+2021-11-01 12:40:20 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [socialMediaWebApp.models.PostComment:comment]
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:410 - building SimpleValue for comment
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property comment
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3JoinColumn{logicalColumnName='user_id', referencedColumn='', mappedBy=''}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Post_Comment), mappingColumn=commenter, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property commenter
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3JoinColumn{logicalColumnName='post_id', referencedColumn='', mappedBy=''}
+2021-11-01 12:40:20 DEBUG Ejb3Column:227 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Post_Comment), mappingColumn=currentPost, insertable=true, updatable=true, unique=false}
+2021-11-01 12:40:20 DEBUG PropertyBinder:266 - Building property currentPost
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for userId
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for dOB
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for displayName
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for firstName
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for gender
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for lastName
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for password
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for profilePicURL
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for userEmail
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for username
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for likedId
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for postId
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for contents
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for likes
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for postDate
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for postURL
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for postCommentId
+2021-11-01 12:40:20 DEBUG SimpleValueBinder:455 - Starting fillSimpleValue for comment
+2021-11-01 12:40:20 DEBUG PrimaryKey:35 - Forcing column [user_id] to be non-null as it is part of the primary key for table [user_account_table]
+2021-11-01 12:40:20 DEBUG PrimaryKey:35 - Forcing column [likedid] to be non-null as it is part of the primary key for table [user_liked_posts]
+2021-11-01 12:40:20 DEBUG PrimaryKey:35 - Forcing column [post_id] to be non-null as it is part of the primary key for table [users_post_table]
+2021-11-01 12:40:20 DEBUG PrimaryKey:35 - Forcing column [post_comment_id] to be non-null as it is part of the primary key for table [post_comment]
+2021-11-01 12:40:20 DEBUG CollectionSecondPass:50 - Second pass for collection: socialMediaWebApp.models.Account.likedPosts
+2021-11-01 12:40:20 DEBUG CollectionBinder:903 - Binding a OneToMany: socialMediaWebApp.models.Account.likedPosts through a foreign key
+2021-11-01 12:40:20 DEBUG CollectionBinder:941 - Mapping collection: socialMediaWebApp.models.Account.likedPosts -> user_liked_posts
+2021-11-01 12:40:20 DEBUG TableBinder:554 - Retrieving property socialMediaWebApp.models.LikedPost.likedId
+2021-11-01 12:40:20 DEBUG CollectionSecondPass:67 - Mapped collection key: likedId, one-to-many: socialMediaWebApp.models.LikedPost
+2021-11-01 12:40:20 DEBUG CollectionSecondPass:50 - Second pass for collection: socialMediaWebApp.models.Account.myComments
+2021-11-01 12:40:20 DEBUG CollectionBinder:903 - Binding a OneToMany: socialMediaWebApp.models.Account.myComments through a foreign key
+2021-11-01 12:40:20 DEBUG CollectionBinder:941 - Mapping collection: socialMediaWebApp.models.Account.myComments -> Post_Comment
+2021-11-01 12:40:20 DEBUG TableBinder:554 - Retrieving property socialMediaWebApp.models.PostComment.postCommentId
+2021-11-01 12:40:20 DEBUG CollectionSecondPass:67 - Mapped collection key: post_comment_Id, one-to-many: socialMediaWebApp.models.PostComment
+2021-11-01 12:40:20 DEBUG CollectionSecondPass:50 - Second pass for collection: socialMediaWebApp.models.Account.myPosts
+2021-11-01 12:40:20 DEBUG CollectionBinder:903 - Binding a OneToMany: socialMediaWebApp.models.Account.myPosts through a foreign key
+2021-11-01 12:40:20 DEBUG CollectionBinder:941 - Mapping collection: socialMediaWebApp.models.Account.myPosts -> Users_Post_Table
+2021-11-01 12:40:20 DEBUG TableBinder:554 - Retrieving property socialMediaWebApp.models.Post.postId
+2021-11-01 12:40:20 DEBUG CollectionSecondPass:67 - Mapped collection key: post_id, one-to-many: socialMediaWebApp.models.Post
+2021-11-01 12:40:20 DEBUG CollectionSecondPass:50 - Second pass for collection: socialMediaWebApp.models.Post.postComments
+2021-11-01 12:40:20 DEBUG CollectionBinder:903 - Binding a OneToMany: socialMediaWebApp.models.Post.postComments through a foreign key
+2021-11-01 12:40:20 DEBUG CollectionBinder:941 - Mapping collection: socialMediaWebApp.models.Post.postComments -> Post_Comment
+2021-11-01 12:40:20 DEBUG TableBinder:554 - Retrieving property socialMediaWebApp.models.PostComment.postCommentId
+2021-11-01 12:40:20 DEBUG CollectionSecondPass:67 - Mapped collection key: post_comment_Id, one-to-many: socialMediaWebApp.models.PostComment
+2021-11-01 12:40:20 DEBUG InFlightMetadataCollectorImpl:1854 - Resolving reference to class: socialMediaWebApp.models.Account
+2021-11-01 12:40:20 DEBUG InFlightMetadataCollectorImpl:1854 - Resolving reference to class: socialMediaWebApp.models.Post
+2021-11-01 12:40:20 DEBUG InFlightMetadataCollectorImpl:1854 - Resolving reference to class: socialMediaWebApp.models.Post
+2021-11-01 12:40:20 DEBUG InFlightMetadataCollectorImpl:1854 - Resolving reference to class: socialMediaWebApp.models.Account
+2021-11-01 12:40:20 DEBUG InFlightMetadataCollectorImpl:1854 - Resolving reference to class: socialMediaWebApp.models.Account
+2021-11-01 12:40:20 DEBUG InFlightMetadataCollectorImpl:1854 - Resolving reference to class: socialMediaWebApp.models.Account
+2021-11-01 12:40:20 DEBUG InFlightMetadataCollectorImpl:1854 - Resolving reference to class: socialMediaWebApp.models.Post
+2021-11-01 12:40:20 DEBUG InFlightMetadataCollectorImpl:1854 - Resolving reference to class: socialMediaWebApp.models.Post
+2021-11-01 12:40:20 DEBUG InFlightMetadataCollectorImpl:1854 - Resolving reference to class: socialMediaWebApp.models.Account
+2021-11-01 12:40:20 DEBUG InFlightMetadataCollectorImpl:1854 - Resolving reference to class: socialMediaWebApp.models.Account
+2021-11-01 12:40:21 DEBUG SessionFactoryImpl:206 - Building session factory
+2021-11-01 12:40:21 DEBUG Settings:68 - SessionFactory name : null
+2021-11-01 12:40:21 DEBUG Settings:69 - Automatic flush during beforeCompletion(): enabled
+2021-11-01 12:40:21 DEBUG Settings:70 - Automatic session close at end of transaction: disabled
+2021-11-01 12:40:21 DEBUG Settings:72 - Statistics: disabled
+2021-11-01 12:40:21 DEBUG Settings:74 - Deleted entity synthetic identifier rollback: disabled
+2021-11-01 12:40:21 DEBUG Settings:75 - Default entity-mode: pojo
+2021-11-01 12:40:21 DEBUG Settings:76 - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2021-11-01 12:40:21 DEBUG Settings:77 - Allow initialization of lazy state outside session : disabled
+2021-11-01 12:40:21 DEBUG Settings:79 - Using BatchFetchStyle : LEGACY
+2021-11-01 12:40:21 DEBUG Settings:80 - Default batch fetch size: -1
+2021-11-01 12:40:21 DEBUG Settings:81 - Maximum outer join fetch depth: null
+2021-11-01 12:40:21 DEBUG Settings:82 - Default null ordering: NONE
+2021-11-01 12:40:21 DEBUG Settings:83 - Order SQL updates by primary key: disabled
+2021-11-01 12:40:21 DEBUG Settings:84 - Order SQL inserts for batching: disabled
+2021-11-01 12:40:21 DEBUG Settings:86 - multi-tenancy strategy : NONE
+2021-11-01 12:40:21 DEBUG Settings:88 - JTA Track by Thread: enabled
+2021-11-01 12:40:21 DEBUG Settings:90 - Query language substitutions: {}
+2021-11-01 12:40:21 DEBUG Settings:91 - Named query checking : enabled
+2021-11-01 12:40:21 DEBUG Settings:93 - Second-level cache: disabled
+2021-11-01 12:40:21 DEBUG Settings:94 - Second-level query cache: disabled
+2021-11-01 12:40:21 DEBUG Settings:95 - Second-level query cache factory: null
+2021-11-01 12:40:21 DEBUG Settings:96 - Second-level cache region prefix: null
+2021-11-01 12:40:21 DEBUG Settings:97 - Optimize second-level cache for minimal puts: disabled
+2021-11-01 12:40:21 DEBUG Settings:98 - Structured second-level cache entries: disabled
+2021-11-01 12:40:21 DEBUG Settings:99 - Second-level cache direct-reference entries: disabled
+2021-11-01 12:40:21 DEBUG Settings:100 - Automatic eviction of collection cache: disabled
+2021-11-01 12:40:21 DEBUG Settings:102 - JDBC batch size: 15
+2021-11-01 12:40:21 DEBUG Settings:103 - JDBC batch updates for versioned data: enabled
+2021-11-01 12:40:21 DEBUG Settings:104 - Scrollable result sets: enabled
+2021-11-01 12:40:21 DEBUG Settings:105 - Wrap result sets: disabled
+2021-11-01 12:40:21 DEBUG Settings:106 - JDBC3 getGeneratedKeys(): enabled
+2021-11-01 12:40:21 DEBUG Settings:107 - JDBC result set fetch size: null
+2021-11-01 12:40:21 DEBUG Settings:108 - Connection release mode: ON_CLOSE
+2021-11-01 12:40:21 DEBUG Settings:109 - Generate SQL with comments: disabled
+2021-11-01 12:40:21 DEBUG Settings:111 - JPA compliance - query : disabled
+2021-11-01 12:40:21 DEBUG Settings:112 - JPA compliance - closed-handling : disabled
+2021-11-01 12:40:21 DEBUG Settings:113 - JPA compliance - lists : disabled
+2021-11-01 12:40:21 DEBUG Settings:114 - JPA compliance - transactions : disabled
+2021-11-01 12:40:21 DEBUG SessionFactoryServiceRegistryImpl:92 - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2021-11-01 12:40:21 DEBUG SessionFactoryServiceRegistryImpl:92 - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2021-11-01 12:40:21 DEBUG SessionFactoryImpl:268 - Session factory constructed with filter configurations : {}
+2021-11-01 12:40:21 DEBUG SessionFactoryImpl:269 - Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, hibernate.format_sql=false, java.specification.version=11, sun.cpu.isalist=amd64, hibernate.resource.beans.container=org.springframework.orm.hibernate5.SpringBeanContainer@75f5293c, hibernate.connection.handling_mode=DELAYED_ACQUISITION_AND_HOLD, sun.jnu.encoding=Cp1252, hibernate.dialect=org.hibernate.dialect.PostgreSQL82Dialect, java.class.path=E:\Programs\apache-tomcat-9.0.54\bin\bootstrap.jar;E:\Programs\apache-tomcat-9.0.54\bin\tomcat-juli.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=https://openjdk.java.net/, catalina.useNaming=true, user.timezone=America/New_York, os.name=Windows 10, java.vm.specification.version=11, sun.java.launcher=SUN_STANDARD, user.country=US, sun.boot.library.path=C:\Program Files\Java\jdk-11.0.12\bin, sun.java.command=org.apache.catalina.startup.Bootstrap start, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\Administrator, user.language=en, java.specification.vendor=Oracle Corporation, java.naming.factory.url.pkgs=org.apache.naming, java.version.date=2021-07-20, java.home=C:\Program Files\Java\jdk-11.0.12, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, package.access=sun.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.tomcat., package.definition=sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.naming.,org.apache.tomcat., hibernate.hbm2ddl.auto=none, user.script=, server.loader=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=11.0.12+8-LTS-237, java.naming.factory.initial=org.apache.naming.java.javaURLContextFactory, user.name=Kyaw, path.separator=;, common.loader="E:\Programs\git_repos\project2-repo2\project2\social_media_project\Java\.metadata\.plugins\org.eclipse.wst.server.core\tmp0/lib","E:\Programs\git_repos\project2-repo2\project2\social_media_project\Java\.metadata\.plugins\org.eclipse.wst.server.core\tmp0/lib/*.jar","E:\Programs\apache-tomcat-9.0.54/lib","E:\Programs\apache-tomcat-9.0.54/lib/*.jar", os.version=10.0, java.runtime.name=Java(TM) SE Runtime Environment, file.encoding=Cp1252, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=false, hibernate.classLoaders=[ParallelWebappClassLoader
+  context: socialMediaWebApp
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@4cc0edeb
+], java.vendor.version=18.9, hibernate.current_session_context_class=org.springframework.orm.hibernate5.SpringSessionContext, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\, tomcat.util.scan.StandardJarScanFilter.jarsToScan=log4j-taglib*.jar,log4j-web*.jar,log4javascript*.jar,slf4j-taglib*.jar, catalina.home=E:\Programs\apache-tomcat-9.0.54, java.version=11.0.12, tomcat.util.scan.StandardJarScanFilter.jarsToSkip=annotations-api.jar,ant-junit*.jar,ant-launcher.jar,ant.jar,asm-*.jar,aspectj*.jar,bootstrap.jar,catalina-ant.jar,catalina-ha.jar,catalina-ssi.jar,catalina-storeconfig.jar,catalina-tribes.jar,catalina.jar,cglib-*.jar,cobertura-*.jar,commons-beanutils*.jar,commons-codec*.jar,commons-collections*.jar,commons-daemon.jar,commons-dbcp*.jar,commons-digester*.jar,commons-fileupload*.jar,commons-httpclient*.jar,commons-io*.jar,commons-lang*.jar,commons-logging*.jar,commons-math*.jar,commons-pool*.jar,derby-*.jar,dom4j-*.jar,easymock-*.jar,ecj-*.jar,el-api.jar,geronimo-spec-jaxrpc*.jar,h2*.jar,hamcrest-*.jar,hibernate*.jar,httpclient*.jar,icu4j-*.jar,jasper-el.jar,jasper.jar,jaspic-api.jar,jaxb-*.jar,jaxen-*.jar,jdom-*.jar,jetty-*.jar,jmx-tools.jar,jmx.jar,jsp-api.jar,jstl.jar,jta*.jar,junit-*.jar,junit.jar,log4j*.jar,mail*.jar,objenesis-*.jar,oraclepki.jar,oro-*.jar,servlet-api-*.jar,servlet-api.jar,slf4j*.jar,taglibs-standard-spec-*.jar,tagsoup-*.jar,tomcat-api.jar,tomcat-coyote.jar,tomcat-dbcp.jar,tomcat-i18n-*.jar,tomcat-jdbc.jar,tomcat-jni.jar,tomcat-juli-adapters.jar,tomcat-juli.jar,tomcat-util-scan.jar,tomcat-util.jar,tomcat-websocket.jar,tools.jar,websocket-api.jar,wsdl4j*.jar,xercesImpl.jar,xml-apis.jar,xmlParserAPIs-*.jar,xmlParserAPIs.jar,xom-*.jar, user.dir=E:\Programs\sts-bundle\sts-3.9.12.RELEASE, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=, catalina.base=E:\Programs\git_repos\project2-repo2\project2\social_media_project\Java\.metadata\.plugins\org.eclipse.wst.server.core\tmp0, shared.loader=, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@3f7e72a7, wtp.deploy=E:\Programs\git_repos\project2-repo2\project2\social_media_project\Java\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps, java.library.path=C:\Program Files\Java\jdk-11.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.12/bin/server;C:/Program Files/Java/jdk-11.0.12/bin;C:\Program Files\Java\jdk-11.0.12\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Python27\;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\MinGW\bin;C:\MinGW\msys\1.0\bin;C:\Python27;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Users\Administrator\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\dotnet\;C:\Program Files\Git\cmd;C:\Maven\apache-maven-3.8.2\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\MinGW\msys\1.0\bin;C:\Python27;C:\Python27\Scripts;C:\MinGW\bin;C:\Program Files\Java\jdk-13\bin;D:\CMAKE\bin;D:\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\AppData\Roaming\npm;E:\Programs\sts-bundle\sts-3.9.12.RELEASE;;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=11.0.12+8-LTS-237, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, hibernate.connection.datasource=org.springframework.jdbc.datasource.DriverManagerDataSource@2100b770, tomcat.util.buf.StringCache.byte.enabled=true, java.class.version=55.0}
+2021-11-01 12:40:21 DEBUG JaccIntegrator:84 - Skipping JACC integration as it was not enabled
+2021-11-01 12:40:21 DEBUG SessionFactoryImpl:309 - Instantiated session factory
+2021-11-01 12:40:21 DEBUG TypeConfiguration$Scope:154 - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@3c9cd930] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@1d2ec1f]
+2021-11-01 12:40:21 DEBUG interceptor:46 - To-one property `socialMediaWebApp.models.Post#poster` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2021-11-01 12:40:21 DEBUG interceptor:46 - To-one property `socialMediaWebApp.models.Post#poster` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2021-11-01 12:40:21 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [socialMediaWebApp.models.Post] is safe
+2021-11-01 12:40:21 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : socialMediaWebApp.models.Post
+2021-11-01 12:40:21 DEBUG interceptor:46 - To-one property `socialMediaWebApp.models.Post#poster` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2021-11-01 12:40:21 DEBUG interceptor:46 - To-one property `socialMediaWebApp.models.Post#poster` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2021-11-01 12:40:21 DEBUG interceptor:46 - To-one property `socialMediaWebApp.models.PostComment#commenter` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2021-11-01 12:40:21 DEBUG interceptor:46 - To-one property `socialMediaWebApp.models.PostComment#commenter` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2021-11-01 12:40:21 DEBUG interceptor:46 - To-one property `socialMediaWebApp.models.PostComment#currentPost` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2021-11-01 12:40:21 DEBUG interceptor:46 - To-one property `socialMediaWebApp.models.PostComment#currentPost` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2021-11-01 12:40:21 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [socialMediaWebApp.models.PostComment] is safe
+2021-11-01 12:40:21 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : socialMediaWebApp.models.PostComment
+2021-11-01 12:40:21 DEBUG interceptor:46 - To-one property `socialMediaWebApp.models.PostComment#commenter` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2021-11-01 12:40:21 DEBUG interceptor:46 - To-one property `socialMediaWebApp.models.PostComment#currentPost` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2021-11-01 12:40:21 DEBUG interceptor:46 - To-one property `socialMediaWebApp.models.PostComment#commenter` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2021-11-01 12:40:21 DEBUG interceptor:46 - To-one property `socialMediaWebApp.models.PostComment#currentPost` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2021-11-01 12:40:21 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [socialMediaWebApp.models.LikedPost] is safe
+2021-11-01 12:40:21 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : socialMediaWebApp.models.LikedPost
+2021-11-01 12:40:21 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [socialMediaWebApp.models.Account] is safe
+2021-11-01 12:40:21 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : socialMediaWebApp.models.Account
+2021-11-01 12:40:21 DEBUG AbstractCollectionPersister:692 - Static SQL for collection: socialMediaWebApp.models.Account.myComments
+2021-11-01 12:40:21 DEBUG AbstractCollectionPersister:694 -  Row insert: update Post_Comment set post_comment_Id=? where post_comment_Id=?
+2021-11-01 12:40:21 DEBUG AbstractCollectionPersister:697 -  Row update: update Post_Comment set  where post_comment_Id=?
+2021-11-01 12:40:21 DEBUG AbstractCollectionPersister:700 -  Row delete: update Post_Comment set post_comment_Id=null where post_comment_Id=?
+2021-11-01 12:40:21 DEBUG AbstractCollectionPersister:703 -  One-shot delete: update Post_Comment set post_comment_Id=null where post_comment_Id=?
+2021-11-01 12:40:21 DEBUG AbstractCollectionPersister:692 - Static SQL for collection: socialMediaWebApp.models.Post.postComments
+2021-11-01 12:40:21 DEBUG AbstractCollectionPersister:694 -  Row insert: update Post_Comment set post_comment_Id=? where post_comment_Id=?
+2021-11-01 12:40:21 DEBUG AbstractCollectionPersister:697 -  Row update: update Post_Comment set  where post_comment_Id=?
+2021-11-01 12:40:21 DEBUG AbstractCollectionPersister:700 -  Row delete: update Post_Comment set post_comment_Id=null where post_comment_Id=?
+2021-11-01 12:40:21 DEBUG AbstractCollectionPersister:703 -  One-shot delete: update Post_Comment set post_comment_Id=null where post_comment_Id=?
+2021-11-01 12:40:21 DEBUG AbstractCollectionPersister:692 - Static SQL for collection: socialMediaWebApp.models.Account.likedPosts
+2021-11-01 12:40:21 DEBUG AbstractCollectionPersister:694 -  Row insert: update user_liked_posts set likedId=? where likedId=?
+2021-11-01 12:40:21 DEBUG AbstractCollectionPersister:697 -  Row update: update user_liked_posts set  where likedId=?
+2021-11-01 12:40:21 DEBUG AbstractCollectionPersister:700 -  Row delete: update user_liked_posts set likedId=null where likedId=?
+2021-11-01 12:40:21 DEBUG AbstractCollectionPersister:703 -  One-shot delete: update user_liked_posts set likedId=null where likedId=?
+2021-11-01 12:40:21 DEBUG AbstractCollectionPersister:692 - Static SQL for collection: socialMediaWebApp.models.Account.myPosts
+2021-11-01 12:40:21 DEBUG AbstractCollectionPersister:694 -  Row insert: update Users_Post_Table set post_id=? where post_id=?
+2021-11-01 12:40:21 DEBUG AbstractCollectionPersister:697 -  Row update: update Users_Post_Table set  where post_id=?
+2021-11-01 12:40:21 DEBUG AbstractCollectionPersister:700 -  Row delete: update Users_Post_Table set post_id=null where post_id=?
+2021-11-01 12:40:21 DEBUG AbstractCollectionPersister:703 -  One-shot delete: update Users_Post_Table set post_id=null where post_id=?
+2021-11-01 12:40:21 DEBUG AbstractEntityPersister:4002 - Static SQL for entity: socialMediaWebApp.models.Post
+2021-11-01 12:40:21 DEBUG AbstractEntityPersister:4007 -  Version select: select post_id from Users_Post_Table where post_id =?
+2021-11-01 12:40:21 DEBUG AbstractEntityPersister:4010 -  Snapshot select: select post_.post_id, post_.post_contents as post_con2_3_, post_.post_number_likes as post_num3_3_, post_.post_date as post_dat4_3_, post_.post_pic_url as post_pic5_3_, post_.user_Id as user_id6_3_ from Users_Post_Table post_ where post_.post_id=?
+2021-11-01 12:40:21 DEBUG AbstractEntityPersister:394 -  Insert 0: insert into Users_Post_Table (post_contents, post_number_likes, post_date, post_pic_url, user_Id, post_id) values (?, ?, ?, ?, ?, ?)
+2021-11-01 12:40:21 DEBUG AbstractEntityPersister:394 -  Update 0: update Users_Post_Table set post_contents=?, post_number_likes=?, post_date=?, post_pic_url=?, user_Id=? where post_id=?
+2021-11-01 12:40:21 DEBUG AbstractEntityPersister:394 -  Delete 0: delete from Users_Post_Table where post_id=?
+2021-11-01 12:40:21 DEBUG AbstractEntityPersister:4018 -  Identity insert: insert into Users_Post_Table (post_contents, post_number_likes, post_date, post_pic_url, user_Id) values (?, ?, ?, ?, ?)
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4fdf83bb]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : contents
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : likes
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : postComments
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@6383ea52]
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4dc24d88]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : postDate
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : postURL
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : poster
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@613d4fa6]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : poster.dOB
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : poster.displayName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : poster.firstName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : poster.gender
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : poster.lastName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : poster.likedPosts
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@4568ef38]
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4b2164a9]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : poster.myComments
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:6> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@11581810]
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:7> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@49f8b57d]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : poster.myPosts
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:154 - Property path deemed to be circular : poster.myPosts
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : poster.password
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : poster.profilePicURL
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : poster.userEmail
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : poster.username
+2021-11-01 12:40:22 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:160 - Building LoadPlan...
+2021-11-01 12:40:22 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2021-11-01 12:40:22 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=socialMediaWebApp.models.Post)
+    - Returns
+       - EntityReturnImpl(entity=socialMediaWebApp.models.Post, querySpaceUid=<gen:0>, path=socialMediaWebApp.models.Post)
+          - CollectionAttributeFetchImpl(collection=socialMediaWebApp.models.Post.postComments, querySpaceUid=<gen:1>, path=socialMediaWebApp.models.Post.postComments)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=socialMediaWebApp.models.PostComment, querySpaceUid=<gen:2>, path=socialMediaWebApp.models.Post.postComments.<elements>)
+          - EntityAttributeFetchImpl(entity=socialMediaWebApp.models.Account, querySpaceUid=<gen:3>, path=socialMediaWebApp.models.Post.poster)
+             - CollectionAttributeFetchImpl(collection=socialMediaWebApp.models.Account.likedPosts, querySpaceUid=<gen:4>, path=socialMediaWebApp.models.Post.poster.likedPosts)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=socialMediaWebApp.models.LikedPost, querySpaceUid=<gen:5>, path=socialMediaWebApp.models.Post.poster.likedPosts.<elements>)
+             - CollectionAttributeFetchImpl(collection=socialMediaWebApp.models.Account.myComments, querySpaceUid=<gen:6>, path=socialMediaWebApp.models.Post.poster.myComments)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=socialMediaWebApp.models.PostComment, querySpaceUid=<gen:7>, path=socialMediaWebApp.models.Post.poster.myComments.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=socialMediaWebApp.models.Post)
+          - SQL table alias mapping - post0_
+          - alias suffix - 0_
+          - suffixed key columns - {post_id1_3_0_}
+          - JOIN (JoinDefinedByMetadata(poster)) : <gen:0> -> <gen:3>
+             - EntityQuerySpaceImpl(uid=<gen:3>, entity=socialMediaWebApp.models.Account)
+                - SQL table alias mapping - account1_
+                - alias suffix - 1_
+                - suffixed key columns - {user_id1_1_1_}
+
+2021-11-01 12:40:22 DEBUG EntityLoader:129 - Static select for entity socialMediaWebApp.models.Post [NONE]: select post0_.post_id as post_id1_3_0_, post0_.post_contents as post_con2_3_0_, post0_.post_number_likes as post_num3_3_0_, post0_.post_date as post_dat4_3_0_, post0_.post_pic_url as post_pic5_3_0_, post0_.user_Id as user_id6_3_0_, account1_.user_id as user_id1_1_1_, account1_.user_dob as user_dob2_1_1_, account1_.user_display_name as user_dis3_1_1_, account1_.user_first_name as user_fir4_1_1_, account1_.user_gender as user_gen5_1_1_, account1_.user_last_name as user_las6_1_1_, account1_.user_password as user_pas7_1_1_, account1_.user_profile_pic_url as user_pro8_1_1_, account1_.user_email as user_ema9_1_1_, account1_.user_username as user_us10_1_1_ from Users_Post_Table post0_ inner join User_Account_Table account1_ on post0_.user_Id=account1_.user_id where post0_.post_id=?
+2021-11-01 12:40:22 DEBUG AbstractEntityPersister:4002 - Static SQL for entity: socialMediaWebApp.models.PostComment
+2021-11-01 12:40:22 DEBUG AbstractEntityPersister:4007 -  Version select: select post_comment_Id from Post_Comment where post_comment_Id =?
+2021-11-01 12:40:22 DEBUG AbstractEntityPersister:4010 -  Snapshot select: select postcommen_.post_comment_Id, postcommen_.post_comment_contents as post_com2_0_, postcommen_.user_id as user_id3_0_, postcommen_.post_id as post_id4_0_ from Post_Comment postcommen_ where postcommen_.post_comment_Id=?
+2021-11-01 12:40:22 DEBUG AbstractEntityPersister:394 -  Insert 0: insert into Post_Comment (post_comment_contents, user_id, post_id, post_comment_Id) values (?, ?, ?, ?)
+2021-11-01 12:40:22 DEBUG AbstractEntityPersister:394 -  Update 0: update Post_Comment set post_comment_contents=?, user_id=?, post_id=? where post_comment_Id=?
+2021-11-01 12:40:22 DEBUG AbstractEntityPersister:394 -  Delete 0: delete from Post_Comment where post_comment_Id=?
+2021-11-01 12:40:22 DEBUG AbstractEntityPersister:4018 -  Identity insert: insert into Post_Comment (post_comment_contents, user_id, post_id) values (?, ?, ?)
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1761b129]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : comment
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5c51a7eb]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.dOB
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.displayName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.firstName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.gender
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.lastName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.likedPosts
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@29d534ce]
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1a3761a]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.myComments
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:154 - Property path deemed to be circular : commenter.myComments
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.myPosts
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@509cf73a]
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5aaab2b0]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.password
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.profilePicURL
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.userEmail
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.username
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:6> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5ad98e6f]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.contents
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.likes
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.postComments
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:154 - Property path deemed to be circular : currentPost.postComments
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.postDate
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.postURL
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:7> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@77422a9f]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.dOB
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.displayName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.firstName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.gender
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.lastName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.likedPosts
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:8> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@6e4e7a62]
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:9> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2fdbd353]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.myComments
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:154 - Property path deemed to be circular : currentPost.poster.myComments
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.myPosts
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:10> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@492b12e5]
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:11> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@20ff27a4]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.password
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.profilePicURL
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.userEmail
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.username
+2021-11-01 12:40:22 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:160 - Building LoadPlan...
+2021-11-01 12:40:22 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2021-11-01 12:40:22 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=socialMediaWebApp.models.PostComment)
+    - Returns
+       - EntityReturnImpl(entity=socialMediaWebApp.models.PostComment, querySpaceUid=<gen:0>, path=socialMediaWebApp.models.PostComment)
+          - EntityAttributeFetchImpl(entity=socialMediaWebApp.models.Account, querySpaceUid=<gen:1>, path=socialMediaWebApp.models.PostComment.commenter)
+             - CollectionAttributeFetchImpl(collection=socialMediaWebApp.models.Account.likedPosts, querySpaceUid=<gen:2>, path=socialMediaWebApp.models.PostComment.commenter.likedPosts)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=socialMediaWebApp.models.LikedPost, querySpaceUid=<gen:3>, path=socialMediaWebApp.models.PostComment.commenter.likedPosts.<elements>)
+             - CollectionAttributeFetchImpl(collection=socialMediaWebApp.models.Account.myPosts, querySpaceUid=<gen:4>, path=socialMediaWebApp.models.PostComment.commenter.myPosts)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=socialMediaWebApp.models.Post, querySpaceUid=<gen:5>, path=socialMediaWebApp.models.PostComment.commenter.myPosts.<elements>)
+          - EntityAttributeFetchImpl(entity=socialMediaWebApp.models.Post, querySpaceUid=<gen:6>, path=socialMediaWebApp.models.PostComment.currentPost)
+             - EntityAttributeFetchImpl(entity=socialMediaWebApp.models.Account, querySpaceUid=<gen:7>, path=socialMediaWebApp.models.PostComment.currentPost.poster)
+                - CollectionAttributeFetchImpl(collection=socialMediaWebApp.models.Account.likedPosts, querySpaceUid=<gen:8>, path=socialMediaWebApp.models.PostComment.currentPost.poster.likedPosts)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=socialMediaWebApp.models.LikedPost, querySpaceUid=<gen:9>, path=socialMediaWebApp.models.PostComment.currentPost.poster.likedPosts.<elements>)
+                - CollectionAttributeFetchImpl(collection=socialMediaWebApp.models.Account.myPosts, querySpaceUid=<gen:10>, path=socialMediaWebApp.models.PostComment.currentPost.poster.myPosts)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=socialMediaWebApp.models.Post, querySpaceUid=<gen:11>, path=socialMediaWebApp.models.PostComment.currentPost.poster.myPosts.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=socialMediaWebApp.models.PostComment)
+          - SQL table alias mapping - postcommen0_
+          - alias suffix - 0_
+          - suffixed key columns - {post_com1_0_0_}
+          - JOIN (JoinDefinedByMetadata(commenter)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=socialMediaWebApp.models.Account)
+                - SQL table alias mapping - account1_
+                - alias suffix - 1_
+                - suffixed key columns - {user_id1_1_1_}
+          - JOIN (JoinDefinedByMetadata(currentPost)) : <gen:0> -> <gen:6>
+             - EntityQuerySpaceImpl(uid=<gen:6>, entity=socialMediaWebApp.models.Post)
+                - SQL table alias mapping - post2_
+                - alias suffix - 2_
+                - suffixed key columns - {post_id1_3_2_}
+                - JOIN (JoinDefinedByMetadata(poster)) : <gen:6> -> <gen:7>
+                   - EntityQuerySpaceImpl(uid=<gen:7>, entity=socialMediaWebApp.models.Account)
+                      - SQL table alias mapping - account3_
+                      - alias suffix - 3_
+                      - suffixed key columns - {user_id1_1_3_}
+
+2021-11-01 12:40:22 DEBUG EntityLoader:129 - Static select for entity socialMediaWebApp.models.PostComment [NONE]: select postcommen0_.post_comment_Id as post_com1_0_0_, postcommen0_.post_comment_contents as post_com2_0_0_, postcommen0_.user_id as user_id3_0_0_, postcommen0_.post_id as post_id4_0_0_, account1_.user_id as user_id1_1_1_, account1_.user_dob as user_dob2_1_1_, account1_.user_display_name as user_dis3_1_1_, account1_.user_first_name as user_fir4_1_1_, account1_.user_gender as user_gen5_1_1_, account1_.user_last_name as user_las6_1_1_, account1_.user_password as user_pas7_1_1_, account1_.user_profile_pic_url as user_pro8_1_1_, account1_.user_email as user_ema9_1_1_, account1_.user_username as user_us10_1_1_, post2_.post_id as post_id1_3_2_, post2_.post_contents as post_con2_3_2_, post2_.post_number_likes as post_num3_3_2_, post2_.post_date as post_dat4_3_2_, post2_.post_pic_url as post_pic5_3_2_, post2_.user_Id as user_id6_3_2_, account3_.user_id as user_id1_1_3_, account3_.user_dob as user_dob2_1_3_, account3_.user_display_name as user_dis3_1_3_, account3_.user_first_name as user_fir4_1_3_, account3_.user_gender as user_gen5_1_3_, account3_.user_last_name as user_las6_1_3_, account3_.user_password as user_pas7_1_3_, account3_.user_profile_pic_url as user_pro8_1_3_, account3_.user_email as user_ema9_1_3_, account3_.user_username as user_us10_1_3_ from Post_Comment postcommen0_ left outer join User_Account_Table account1_ on postcommen0_.user_id=account1_.user_id left outer join Users_Post_Table post2_ on postcommen0_.post_id=post2_.post_id left outer join User_Account_Table account3_ on post2_.user_Id=account3_.user_id where postcommen0_.post_comment_Id=?
+2021-11-01 12:40:22 DEBUG AbstractEntityPersister:4002 - Static SQL for entity: socialMediaWebApp.models.LikedPost
+2021-11-01 12:40:22 DEBUG AbstractEntityPersister:4007 -  Version select: select likedId from user_liked_posts where likedId =?
+2021-11-01 12:40:22 DEBUG AbstractEntityPersister:4010 -  Snapshot select: select likedpost_.likedId, likedpost_.liked_post as liked_po2_2_, likedpost_.liking_account_Id as liking_a3_2_ from user_liked_posts likedpost_ where likedpost_.likedId=?
+2021-11-01 12:40:22 DEBUG AbstractEntityPersister:394 -  Insert 0: insert into user_liked_posts (liked_post, liking_account_Id, likedId) values (?, ?, ?)
+2021-11-01 12:40:22 DEBUG AbstractEntityPersister:394 -  Update 0: update user_liked_posts set liked_post=?, liking_account_Id=? where likedId=?
+2021-11-01 12:40:22 DEBUG AbstractEntityPersister:394 -  Delete 0: delete from user_liked_posts where likedId=?
+2021-11-01 12:40:22 DEBUG AbstractEntityPersister:4018 -  Identity insert: insert into user_liked_posts (liked_post, liking_account_Id) values (?, ?)
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3d7fc4b3]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : likedPost
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5de25642]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : myAccount
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@479885d]
+2021-11-01 12:40:22 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:160 - Building LoadPlan...
+2021-11-01 12:40:22 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2021-11-01 12:40:22 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=socialMediaWebApp.models.LikedPost)
+    - Returns
+       - EntityReturnImpl(entity=socialMediaWebApp.models.LikedPost, querySpaceUid=<gen:0>, path=socialMediaWebApp.models.LikedPost)
+          - EntityAttributeFetchImpl(entity=socialMediaWebApp.models.Post, querySpaceUid=<gen:1>, path=socialMediaWebApp.models.LikedPost.likedPost)
+          - EntityAttributeFetchImpl(entity=socialMediaWebApp.models.Account, querySpaceUid=<gen:2>, path=socialMediaWebApp.models.LikedPost.myAccount)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=socialMediaWebApp.models.LikedPost)
+          - SQL table alias mapping - likedpost0_
+          - alias suffix - 0_
+          - suffixed key columns - {likedid1_2_0_}
+
+2021-11-01 12:40:22 DEBUG EntityLoader:129 - Static select for entity socialMediaWebApp.models.LikedPost [NONE]: select likedpost0_.likedId as likedid1_2_0_, likedpost0_.liked_post as liked_po2_2_0_, likedpost0_.liking_account_Id as liking_a3_2_0_ from user_liked_posts likedpost0_ where likedpost0_.likedId=?
+2021-11-01 12:40:22 DEBUG AbstractEntityPersister:4002 - Static SQL for entity: socialMediaWebApp.models.Account
+2021-11-01 12:40:22 DEBUG AbstractEntityPersister:4007 -  Version select: select user_id from User_Account_Table where user_id =?
+2021-11-01 12:40:22 DEBUG AbstractEntityPersister:4010 -  Snapshot select: select account_.user_id, account_.user_dob as user_dob2_1_, account_.user_display_name as user_dis3_1_, account_.user_first_name as user_fir4_1_, account_.user_gender as user_gen5_1_, account_.user_last_name as user_las6_1_, account_.user_password as user_pas7_1_, account_.user_profile_pic_url as user_pro8_1_, account_.user_email as user_ema9_1_, account_.user_username as user_us10_1_ from User_Account_Table account_ where account_.user_id=?
+2021-11-01 12:40:22 DEBUG AbstractEntityPersister:394 -  Insert 0: insert into User_Account_Table (user_dob, user_display_name, user_first_name, user_gender, user_last_name, user_password, user_profile_pic_url, user_email, user_username, user_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-11-01 12:40:22 DEBUG AbstractEntityPersister:394 -  Update 0: update User_Account_Table set user_dob=?, user_display_name=?, user_first_name=?, user_gender=?, user_last_name=?, user_password=?, user_profile_pic_url=?, user_email=?, user_username=? where user_id=?
+2021-11-01 12:40:22 DEBUG AbstractEntityPersister:394 -  Delete 0: delete from User_Account_Table where user_id=?
+2021-11-01 12:40:22 DEBUG AbstractEntityPersister:4018 -  Identity insert: insert into User_Account_Table (user_dob, user_display_name, user_first_name, user_gender, user_last_name, user_password, user_profile_pic_url, user_email, user_username) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@47609e3d]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : dOB
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : displayName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : firstName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : gender
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : lastName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : likedPosts
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3aca7082]
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@72b92ce6]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : myComments
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@31ebc5fa]
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6f215ff3]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : myPosts
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@6066cf5]
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:6> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3d63becf]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : password
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : profilePicURL
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : userEmail
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : username
+2021-11-01 12:40:22 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:160 - Building LoadPlan...
+2021-11-01 12:40:22 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2021-11-01 12:40:22 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=socialMediaWebApp.models.Account)
+    - Returns
+       - EntityReturnImpl(entity=socialMediaWebApp.models.Account, querySpaceUid=<gen:0>, path=socialMediaWebApp.models.Account)
+          - CollectionAttributeFetchImpl(collection=socialMediaWebApp.models.Account.likedPosts, querySpaceUid=<gen:1>, path=socialMediaWebApp.models.Account.likedPosts)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=socialMediaWebApp.models.LikedPost, querySpaceUid=<gen:2>, path=socialMediaWebApp.models.Account.likedPosts.<elements>)
+          - CollectionAttributeFetchImpl(collection=socialMediaWebApp.models.Account.myComments, querySpaceUid=<gen:3>, path=socialMediaWebApp.models.Account.myComments)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=socialMediaWebApp.models.PostComment, querySpaceUid=<gen:4>, path=socialMediaWebApp.models.Account.myComments.<elements>)
+          - CollectionAttributeFetchImpl(collection=socialMediaWebApp.models.Account.myPosts, querySpaceUid=<gen:5>, path=socialMediaWebApp.models.Account.myPosts)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=socialMediaWebApp.models.Post, querySpaceUid=<gen:6>, path=socialMediaWebApp.models.Account.myPosts.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=socialMediaWebApp.models.Account)
+          - SQL table alias mapping - account0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_id1_1_0_}
+
+2021-11-01 12:40:22 DEBUG EntityLoader:129 - Static select for entity socialMediaWebApp.models.Account [NONE]: select account0_.user_id as user_id1_1_0_, account0_.user_dob as user_dob2_1_0_, account0_.user_display_name as user_dis3_1_0_, account0_.user_first_name as user_fir4_1_0_, account0_.user_gender as user_gen5_1_0_, account0_.user_last_name as user_las6_1_0_, account0_.user_password as user_pas7_1_0_, account0_.user_profile_pic_url as user_pro8_1_0_, account0_.user_email as user_ema9_1_0_, account0_.user_username as user_us10_1_0_ from User_Account_Table account0_ where account0_.user_id=?
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@52ac4878]
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4a28852d]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : comment
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7a680b69]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.dOB
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.displayName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.firstName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.gender
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.lastName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.likedPosts
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@17c533f3]
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@30386e95]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.myComments
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:154 - Property path deemed to be circular : commenter.myComments
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.myPosts
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@ab118b8]
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:6> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2fe26f79]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.password
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.profilePicURL
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.userEmail
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.username
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:7> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@11069bdd]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.contents
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.likes
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.postComments
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:154 - Property path deemed to be circular : currentPost.postComments
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.postDate
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.postURL
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:8> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@60cfa399]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.dOB
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.displayName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.firstName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.gender
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.lastName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.likedPosts
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:9> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7917317d]
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:10> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5319f982]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.myComments
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:154 - Property path deemed to be circular : currentPost.poster.myComments
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.myPosts
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:11> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@4ed74b13]
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:12> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@463fc3f6]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.password
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.profilePicURL
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.userEmail
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.username
+2021-11-01 12:40:22 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:160 - Building LoadPlan...
+2021-11-01 12:40:22 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2021-11-01 12:40:22 DEBUG LoadPlanTreePrinter:55 - LoadPlan(collection=socialMediaWebApp.models.Account.myComments)
+    - Returns
+       - CollectionReturnImpl(collection=socialMediaWebApp.models.Account.myComments, querySpaceUid=<gen:0>, path=[socialMediaWebApp.models.Account.myComments])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=socialMediaWebApp.models.PostComment, querySpaceUid=<gen:1>, path=[socialMediaWebApp.models.Account.myComments].<elements>)
+             - EntityAttributeFetchImpl(entity=socialMediaWebApp.models.Account, querySpaceUid=<gen:2>, path=[socialMediaWebApp.models.Account.myComments].<elements>.commenter)
+                - CollectionAttributeFetchImpl(collection=socialMediaWebApp.models.Account.likedPosts, querySpaceUid=<gen:3>, path=[socialMediaWebApp.models.Account.myComments].<elements>.commenter.likedPosts)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=socialMediaWebApp.models.LikedPost, querySpaceUid=<gen:4>, path=[socialMediaWebApp.models.Account.myComments].<elements>.commenter.likedPosts.<elements>)
+                - CollectionAttributeFetchImpl(collection=socialMediaWebApp.models.Account.myPosts, querySpaceUid=<gen:5>, path=[socialMediaWebApp.models.Account.myComments].<elements>.commenter.myPosts)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=socialMediaWebApp.models.Post, querySpaceUid=<gen:6>, path=[socialMediaWebApp.models.Account.myComments].<elements>.commenter.myPosts.<elements>)
+             - EntityAttributeFetchImpl(entity=socialMediaWebApp.models.Post, querySpaceUid=<gen:7>, path=[socialMediaWebApp.models.Account.myComments].<elements>.currentPost)
+                - EntityAttributeFetchImpl(entity=socialMediaWebApp.models.Account, querySpaceUid=<gen:8>, path=[socialMediaWebApp.models.Account.myComments].<elements>.currentPost.poster)
+                   - CollectionAttributeFetchImpl(collection=socialMediaWebApp.models.Account.likedPosts, querySpaceUid=<gen:9>, path=[socialMediaWebApp.models.Account.myComments].<elements>.currentPost.poster.likedPosts)
+                      - (collection element) CollectionFetchableElementEntityGraph(entity=socialMediaWebApp.models.LikedPost, querySpaceUid=<gen:10>, path=[socialMediaWebApp.models.Account.myComments].<elements>.currentPost.poster.likedPosts.<elements>)
+                   - CollectionAttributeFetchImpl(collection=socialMediaWebApp.models.Account.myPosts, querySpaceUid=<gen:11>, path=[socialMediaWebApp.models.Account.myComments].<elements>.currentPost.poster.myPosts)
+                      - (collection element) CollectionFetchableElementEntityGraph(entity=socialMediaWebApp.models.Post, querySpaceUid=<gen:12>, path=[socialMediaWebApp.models.Account.myComments].<elements>.currentPost.poster.myPosts.<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=socialMediaWebApp.models.Account.myComments)
+          - SQL table alias mapping - mycomments0_
+          - alias suffix - 0_
+          - suffixed key columns - {post_com1_0_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - post_com1_0_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=socialMediaWebApp.models.PostComment)
+                - SQL table alias mapping - mycomments0_
+                - alias suffix - 1_
+                - suffixed key columns - {post_com1_0_1_}
+                - JOIN (JoinDefinedByMetadata(commenter)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=socialMediaWebApp.models.Account)
+                      - SQL table alias mapping - account1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {user_id1_1_2_}
+                - JOIN (JoinDefinedByMetadata(currentPost)) : <gen:1> -> <gen:7>
+                   - EntityQuerySpaceImpl(uid=<gen:7>, entity=socialMediaWebApp.models.Post)
+                      - SQL table alias mapping - post2_
+                      - alias suffix - 3_
+                      - suffixed key columns - {post_id1_3_3_}
+                      - JOIN (JoinDefinedByMetadata(poster)) : <gen:7> -> <gen:8>
+                         - EntityQuerySpaceImpl(uid=<gen:8>, entity=socialMediaWebApp.models.Account)
+                            - SQL table alias mapping - account3_
+                            - alias suffix - 4_
+                            - suffixed key columns - {user_id1_1_4_}
+
+2021-11-01 12:40:22 DEBUG CollectionLoader:83 - Static select for collection socialMediaWebApp.models.Account.myComments: select mycomments0_.post_comment_Id as post_com1_0_0_, mycomments0_.post_comment_Id as post_com1_0_1_, mycomments0_.post_comment_contents as post_com2_0_1_, mycomments0_.user_id as user_id3_0_1_, mycomments0_.post_id as post_id4_0_1_, account1_.user_id as user_id1_1_2_, account1_.user_dob as user_dob2_1_2_, account1_.user_display_name as user_dis3_1_2_, account1_.user_first_name as user_fir4_1_2_, account1_.user_gender as user_gen5_1_2_, account1_.user_last_name as user_las6_1_2_, account1_.user_password as user_pas7_1_2_, account1_.user_profile_pic_url as user_pro8_1_2_, account1_.user_email as user_ema9_1_2_, account1_.user_username as user_us10_1_2_, post2_.post_id as post_id1_3_3_, post2_.post_contents as post_con2_3_3_, post2_.post_number_likes as post_num3_3_3_, post2_.post_date as post_dat4_3_3_, post2_.post_pic_url as post_pic5_3_3_, post2_.user_Id as user_id6_3_3_, account3_.user_id as user_id1_1_4_, account3_.user_dob as user_dob2_1_4_, account3_.user_display_name as user_dis3_1_4_, account3_.user_first_name as user_fir4_1_4_, account3_.user_gender as user_gen5_1_4_, account3_.user_last_name as user_las6_1_4_, account3_.user_password as user_pas7_1_4_, account3_.user_profile_pic_url as user_pro8_1_4_, account3_.user_email as user_ema9_1_4_, account3_.user_username as user_us10_1_4_ from Post_Comment mycomments0_ left outer join User_Account_Table account1_ on mycomments0_.user_id=account1_.user_id left outer join Users_Post_Table post2_ on mycomments0_.post_id=post2_.post_id left outer join User_Account_Table account3_ on post2_.user_Id=account3_.user_id where mycomments0_.post_comment_Id=?
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7534b2a4]
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4e58f26d]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : comment
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5bb2f959]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.dOB
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.displayName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.firstName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.gender
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.lastName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.likedPosts
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@e071deb]
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1b0964cf]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.myComments
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:154 - Property path deemed to be circular : commenter.myComments
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.myPosts
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@573d3ec6]
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:6> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@84398a]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.password
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.profilePicURL
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.userEmail
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : commenter.username
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:7> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@365a9434]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.contents
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.likes
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.postComments
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:154 - Property path deemed to be circular : currentPost.postComments
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.postDate
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.postURL
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:8> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@58507830]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.dOB
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.displayName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.firstName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.gender
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.lastName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.likedPosts
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:9> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1b2092fe]
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:10> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5047fc77]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.myComments
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:154 - Property path deemed to be circular : currentPost.poster.myComments
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.myPosts
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:11> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@b8d8fb7]
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:12> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@38913b95]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.password
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.profilePicURL
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.userEmail
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : currentPost.poster.username
+2021-11-01 12:40:22 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:160 - Building LoadPlan...
+2021-11-01 12:40:22 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2021-11-01 12:40:22 DEBUG LoadPlanTreePrinter:55 - LoadPlan(collection=socialMediaWebApp.models.Post.postComments)
+    - Returns
+       - CollectionReturnImpl(collection=socialMediaWebApp.models.Post.postComments, querySpaceUid=<gen:0>, path=[socialMediaWebApp.models.Post.postComments])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=socialMediaWebApp.models.PostComment, querySpaceUid=<gen:1>, path=[socialMediaWebApp.models.Post.postComments].<elements>)
+             - EntityAttributeFetchImpl(entity=socialMediaWebApp.models.Account, querySpaceUid=<gen:2>, path=[socialMediaWebApp.models.Post.postComments].<elements>.commenter)
+                - CollectionAttributeFetchImpl(collection=socialMediaWebApp.models.Account.likedPosts, querySpaceUid=<gen:3>, path=[socialMediaWebApp.models.Post.postComments].<elements>.commenter.likedPosts)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=socialMediaWebApp.models.LikedPost, querySpaceUid=<gen:4>, path=[socialMediaWebApp.models.Post.postComments].<elements>.commenter.likedPosts.<elements>)
+                - CollectionAttributeFetchImpl(collection=socialMediaWebApp.models.Account.myPosts, querySpaceUid=<gen:5>, path=[socialMediaWebApp.models.Post.postComments].<elements>.commenter.myPosts)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=socialMediaWebApp.models.Post, querySpaceUid=<gen:6>, path=[socialMediaWebApp.models.Post.postComments].<elements>.commenter.myPosts.<elements>)
+             - EntityAttributeFetchImpl(entity=socialMediaWebApp.models.Post, querySpaceUid=<gen:7>, path=[socialMediaWebApp.models.Post.postComments].<elements>.currentPost)
+                - EntityAttributeFetchImpl(entity=socialMediaWebApp.models.Account, querySpaceUid=<gen:8>, path=[socialMediaWebApp.models.Post.postComments].<elements>.currentPost.poster)
+                   - CollectionAttributeFetchImpl(collection=socialMediaWebApp.models.Account.likedPosts, querySpaceUid=<gen:9>, path=[socialMediaWebApp.models.Post.postComments].<elements>.currentPost.poster.likedPosts)
+                      - (collection element) CollectionFetchableElementEntityGraph(entity=socialMediaWebApp.models.LikedPost, querySpaceUid=<gen:10>, path=[socialMediaWebApp.models.Post.postComments].<elements>.currentPost.poster.likedPosts.<elements>)
+                   - CollectionAttributeFetchImpl(collection=socialMediaWebApp.models.Account.myPosts, querySpaceUid=<gen:11>, path=[socialMediaWebApp.models.Post.postComments].<elements>.currentPost.poster.myPosts)
+                      - (collection element) CollectionFetchableElementEntityGraph(entity=socialMediaWebApp.models.Post, querySpaceUid=<gen:12>, path=[socialMediaWebApp.models.Post.postComments].<elements>.currentPost.poster.myPosts.<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=socialMediaWebApp.models.Post.postComments)
+          - SQL table alias mapping - postcommen0_
+          - alias suffix - 0_
+          - suffixed key columns - {post_com1_0_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - post_com1_0_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=socialMediaWebApp.models.PostComment)
+                - SQL table alias mapping - postcommen0_
+                - alias suffix - 1_
+                - suffixed key columns - {post_com1_0_1_}
+                - JOIN (JoinDefinedByMetadata(commenter)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=socialMediaWebApp.models.Account)
+                      - SQL table alias mapping - account1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {user_id1_1_2_}
+                - JOIN (JoinDefinedByMetadata(currentPost)) : <gen:1> -> <gen:7>
+                   - EntityQuerySpaceImpl(uid=<gen:7>, entity=socialMediaWebApp.models.Post)
+                      - SQL table alias mapping - post2_
+                      - alias suffix - 3_
+                      - suffixed key columns - {post_id1_3_3_}
+                      - JOIN (JoinDefinedByMetadata(poster)) : <gen:7> -> <gen:8>
+                         - EntityQuerySpaceImpl(uid=<gen:8>, entity=socialMediaWebApp.models.Account)
+                            - SQL table alias mapping - account3_
+                            - alias suffix - 4_
+                            - suffixed key columns - {user_id1_1_4_}
+
+2021-11-01 12:40:22 DEBUG CollectionLoader:83 - Static select for collection socialMediaWebApp.models.Post.postComments: select postcommen0_.post_comment_Id as post_com1_0_0_, postcommen0_.post_comment_Id as post_com1_0_1_, postcommen0_.post_comment_contents as post_com2_0_1_, postcommen0_.user_id as user_id3_0_1_, postcommen0_.post_id as post_id4_0_1_, account1_.user_id as user_id1_1_2_, account1_.user_dob as user_dob2_1_2_, account1_.user_display_name as user_dis3_1_2_, account1_.user_first_name as user_fir4_1_2_, account1_.user_gender as user_gen5_1_2_, account1_.user_last_name as user_las6_1_2_, account1_.user_password as user_pas7_1_2_, account1_.user_profile_pic_url as user_pro8_1_2_, account1_.user_email as user_ema9_1_2_, account1_.user_username as user_us10_1_2_, post2_.post_id as post_id1_3_3_, post2_.post_contents as post_con2_3_3_, post2_.post_number_likes as post_num3_3_3_, post2_.post_date as post_dat4_3_3_, post2_.post_pic_url as post_pic5_3_3_, post2_.user_Id as user_id6_3_3_, account3_.user_id as user_id1_1_4_, account3_.user_dob as user_dob2_1_4_, account3_.user_display_name as user_dis3_1_4_, account3_.user_first_name as user_fir4_1_4_, account3_.user_gender as user_gen5_1_4_, account3_.user_last_name as user_las6_1_4_, account3_.user_password as user_pas7_1_4_, account3_.user_profile_pic_url as user_pro8_1_4_, account3_.user_email as user_ema9_1_4_, account3_.user_username as user_us10_1_4_ from Post_Comment postcommen0_ left outer join User_Account_Table account1_ on postcommen0_.user_id=account1_.user_id left outer join Users_Post_Table post2_ on postcommen0_.post_id=post2_.post_id left outer join User_Account_Table account3_ on post2_.user_Id=account3_.user_id where postcommen0_.post_comment_Id=?
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@2739f91b]
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@48720dcf]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : likedPost
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7680cb52]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : myAccount
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2e44bc38]
+2021-11-01 12:40:22 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:160 - Building LoadPlan...
+2021-11-01 12:40:22 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2021-11-01 12:40:22 DEBUG LoadPlanTreePrinter:55 - LoadPlan(collection=socialMediaWebApp.models.Account.likedPosts)
+    - Returns
+       - CollectionReturnImpl(collection=socialMediaWebApp.models.Account.likedPosts, querySpaceUid=<gen:0>, path=[socialMediaWebApp.models.Account.likedPosts])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=socialMediaWebApp.models.LikedPost, querySpaceUid=<gen:1>, path=[socialMediaWebApp.models.Account.likedPosts].<elements>)
+             - EntityAttributeFetchImpl(entity=socialMediaWebApp.models.Post, querySpaceUid=<gen:2>, path=[socialMediaWebApp.models.Account.likedPosts].<elements>.likedPost)
+             - EntityAttributeFetchImpl(entity=socialMediaWebApp.models.Account, querySpaceUid=<gen:3>, path=[socialMediaWebApp.models.Account.likedPosts].<elements>.myAccount)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=socialMediaWebApp.models.Account.likedPosts)
+          - SQL table alias mapping - likedposts0_
+          - alias suffix - 0_
+          - suffixed key columns - {likedid1_2_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - likedid1_2_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=socialMediaWebApp.models.LikedPost)
+                - SQL table alias mapping - likedposts0_
+                - alias suffix - 1_
+                - suffixed key columns - {likedid1_2_1_}
+
+2021-11-01 12:40:22 DEBUG CollectionLoader:83 - Static select for collection socialMediaWebApp.models.Account.likedPosts: select likedposts0_.likedId as likedid1_2_0_, likedposts0_.likedId as likedid1_2_1_, likedposts0_.liked_post as liked_po2_2_1_, likedposts0_.liking_account_Id as liking_a3_2_1_ from user_liked_posts likedposts0_ where likedposts0_.likedId=?
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@2fba0d7a]
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@79b01476]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : contents
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : likes
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : postComments
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7d9a5edf]
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4f0e6be]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : postDate
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : postURL
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : poster
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@59e5ecab]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : poster.dOB
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : poster.displayName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : poster.firstName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : poster.gender
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : poster.lastName
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : poster.likedPosts
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@5623354e]
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:6> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5565fc22]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : poster.myComments
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:7> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@2313c291]
+2021-11-01 12:40:22 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:8> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5d0d1e50]
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : poster.myPosts
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:154 - Property path deemed to be circular : poster.myPosts
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : poster.password
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : poster.profilePicURL
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : poster.userEmail
+2021-11-01 12:40:22 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : poster.username
+2021-11-01 12:40:22 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:160 - Building LoadPlan...
+2021-11-01 12:40:22 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2021-11-01 12:40:22 DEBUG LoadPlanTreePrinter:55 - LoadPlan(collection=socialMediaWebApp.models.Account.myPosts)
+    - Returns
+       - CollectionReturnImpl(collection=socialMediaWebApp.models.Account.myPosts, querySpaceUid=<gen:0>, path=[socialMediaWebApp.models.Account.myPosts])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=socialMediaWebApp.models.Post, querySpaceUid=<gen:1>, path=[socialMediaWebApp.models.Account.myPosts].<elements>)
+             - CollectionAttributeFetchImpl(collection=socialMediaWebApp.models.Post.postComments, querySpaceUid=<gen:2>, path=[socialMediaWebApp.models.Account.myPosts].<elements>.postComments)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=socialMediaWebApp.models.PostComment, querySpaceUid=<gen:3>, path=[socialMediaWebApp.models.Account.myPosts].<elements>.postComments.<elements>)
+             - EntityAttributeFetchImpl(entity=socialMediaWebApp.models.Account, querySpaceUid=<gen:4>, path=[socialMediaWebApp.models.Account.myPosts].<elements>.poster)
+                - CollectionAttributeFetchImpl(collection=socialMediaWebApp.models.Account.likedPosts, querySpaceUid=<gen:5>, path=[socialMediaWebApp.models.Account.myPosts].<elements>.poster.likedPosts)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=socialMediaWebApp.models.LikedPost, querySpaceUid=<gen:6>, path=[socialMediaWebApp.models.Account.myPosts].<elements>.poster.likedPosts.<elements>)
+                - CollectionAttributeFetchImpl(collection=socialMediaWebApp.models.Account.myComments, querySpaceUid=<gen:7>, path=[socialMediaWebApp.models.Account.myPosts].<elements>.poster.myComments)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=socialMediaWebApp.models.PostComment, querySpaceUid=<gen:8>, path=[socialMediaWebApp.models.Account.myPosts].<elements>.poster.myComments.<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=socialMediaWebApp.models.Account.myPosts)
+          - SQL table alias mapping - myposts0_
+          - alias suffix - 0_
+          - suffixed key columns - {post_id1_3_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - post_id1_3_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=socialMediaWebApp.models.Post)
+                - SQL table alias mapping - myposts0_
+                - alias suffix - 1_
+                - suffixed key columns - {post_id1_3_1_}
+                - JOIN (JoinDefinedByMetadata(poster)) : <gen:1> -> <gen:4>
+                   - EntityQuerySpaceImpl(uid=<gen:4>, entity=socialMediaWebApp.models.Account)
+                      - SQL table alias mapping - account1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {user_id1_1_2_}
+
+2021-11-01 12:40:22 DEBUG CollectionLoader:83 - Static select for collection socialMediaWebApp.models.Account.myPosts: select myposts0_.post_id as post_id1_3_0_, myposts0_.post_id as post_id1_3_1_, myposts0_.post_contents as post_con2_3_1_, myposts0_.post_number_likes as post_num3_3_1_, myposts0_.post_date as post_dat4_3_1_, myposts0_.post_pic_url as post_pic5_3_1_, myposts0_.user_Id as user_id6_3_1_, account1_.user_id as user_id1_1_2_, account1_.user_dob as user_dob2_1_2_, account1_.user_display_name as user_dis3_1_2_, account1_.user_first_name as user_fir4_1_2_, account1_.user_gender as user_gen5_1_2_, account1_.user_last_name as user_las6_1_2_, account1_.user_password as user_pas7_1_2_, account1_.user_profile_pic_url as user_pro8_1_2_, account1_.user_email as user_ema9_1_2_, account1_.user_username as user_us10_1_2_ from Users_Post_Table myposts0_ inner join User_Account_Table account1_ on myposts0_.user_Id=account1_.user_id where myposts0_.post_id=?
+2021-11-01 12:40:22 DEBUG SchemaManagementToolCoordinator:65 - No actions specified; doing nothing
+2021-11-01 12:40:22 DEBUG JtaPlatformInitiator:43 - No JtaPlatform was specified, checking resolver
+2021-11-01 12:40:22 DEBUG JtaPlatformResolverInitiator:33 - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+2021-11-01 12:40:22 DEBUG StandardJtaPlatformResolver:137 - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-01 12:40:22 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-01 12:40:22 DEBUG NamedQueryRepository:171 - Checking 0 named HQL queries
+2021-11-01 12:40:22 DEBUG NamedQueryRepository:185 - Checking 0 named SQL queries
+2021-11-01 12:40:22 DEBUG SessionFactoryServiceRegistryImpl:92 - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2021-11-01 12:40:22 DEBUG SessionFactoryRegistry:51 - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@54d1c9ba
+2021-11-01 12:40:22 DEBUG SessionFactoryRegistry:73 - Registering SessionFactory: 1e641a46-63f1-4b0c-bae6-20a117dc7c94 (<unnamed>)
+2021-11-01 12:40:22 DEBUG SessionFactoryRegistry:80 - Not binding SessionFactory to JNDI, no JNDI name configured
+2021-11-01 12:41:07 DEBUG StatisticsInitiator:101 - Statistics initialized [enabled=false]
+2021-11-01 12:41:07 DEBUG TransactionImpl:53 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2021-11-01 12:41:07 DEBUG TransactionImpl:81 - begin
+2021-11-01 12:41:08 DEBUG QueryTranslatorFactoryInitiator:45 - QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@5196c864
+2021-11-01 12:41:08 DEBUG QueryTranslatorImpl:292 - parse() - HQL: from socialMediaWebApp.models.Account where username=:username and password=:password
+2021-11-01 12:41:08 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-11-01 12:41:08 DEBUG QueryTranslatorImpl:313 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  \-[FROM] Node: 'from'
+    |     \-[RANGE] Node: 'RANGE'
+    |        \-[DOT] Node: '.'
+    |           +-[DOT] Node: '.'
+    |           |  +-[IDENT] Node: 'socialMediaWebApp'
+    |           |  \-[IDENT] Node: 'models'
+    |           \-[IDENT] Node: 'Account'
+    \-[WHERE] Node: 'where'
+       \-[AND] Node: 'and'
+          +-[EQ] Node: '='
+          |  +-[IDENT] Node: 'username'
+          |  \-[COLON] Node: ':'
+          |     \-[IDENT] Node: 'username'
+          \-[EQ] Node: '='
+             +-[IDENT] Node: 'password'
+             \-[COLON] Node: ':'
+                \-[IDENT] Node: 'password'
+
+2021-11-01 12:41:08 DEBUG HqlSqlBaseWalker:129 - select << begin [level=1, statement=select]
+2021-11-01 12:41:08 DEBUG FromElement:153 - FromClause{level=1} : socialMediaWebApp.models.Account (<no alias>) -> account0_
+2021-11-01 12:41:08 DEBUG FromReferenceNode:60 - Resolved : {synthetic-alias} -> {synthetic-alias}
+2021-11-01 12:41:08 DEBUG DotNode:696 - getDataType() : username -> org.hibernate.type.StringType@3c2b7322
+2021-11-01 12:41:08 DEBUG FromReferenceNode:60 - Resolved : {synthetic-alias}.username -> account0_.user_username
+2021-11-01 12:41:08 DEBUG FromReferenceNode:60 - Resolved : {synthetic-alias} -> {synthetic-alias}
+2021-11-01 12:41:08 DEBUG DotNode:696 - getDataType() : password -> org.hibernate.type.StringType@3c2b7322
+2021-11-01 12:41:08 DEBUG FromReferenceNode:60 - Resolved : {synthetic-alias}.password -> account0_.user_password
+2021-11-01 12:41:08 DEBUG HqlSqlBaseWalker:133 - select : finishing up [level=1, statement=select]
+2021-11-01 12:41:08 DEBUG HqlSqlWalker:762 - processQuery() :  ( SELECT ( FromClause{level=1} User_Account_Table account0_ ) ( where ( and ( = ( account0_.user_username {synthetic-alias} username ) ? ) ( = ( account0_.user_password {synthetic-alias} password ) ? ) ) ) )
+2021-11-01 12:41:08 DEBUG HqlSqlWalker:1038 - Derived SELECT clause created.
+2021-11-01 12:41:08 DEBUG JoinProcessor:129 - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Account): [User_Account_Table]
+    |  +-SelectExpressionImpl
+    |  | persister: SingleTableEntityPersister(socialMediaWebApp.models.Account)
+    |  \-SqlFragment
+    +-FromClause
+    |  \-FromElement
+    \-SqlNode
+       \-SqlNode
+          +-BinaryLogicOperatorNode
+          |  +-DotNode
+          |  | persister: SingleTableEntityPersister(socialMediaWebApp.models.Account)
+          |  | path: {synthetic-alias}.username
+          |  |  +-IdentNode
+          |  |  | persister: SingleTableEntityPersister(socialMediaWebApp.models.Account)
+          |  |  | originalText: {synthetic-alias}
+          |  |  \-IdentNode
+          |  |    persister: null
+          |  |    originalText: username
+          |  \-ParameterNode
+          \-BinaryLogicOperatorNode
+             +-DotNode
+             | persister: SingleTableEntityPersister(socialMediaWebApp.models.Account)
+             | path: {synthetic-alias}.password
+             |  +-IdentNode
+             |  | persister: SingleTableEntityPersister(socialMediaWebApp.models.Account)
+             |  | originalText: {synthetic-alias}
+             |  \-IdentNode
+             |    persister: null
+             |    originalText: password
+             \-ParameterNode
+
+2021-11-01 12:41:08 DEBUG JoinProcessor:304 - Using FROM fragment [User_Account_Table account0_]
+2021-11-01 12:41:08 DEBUG HqlSqlBaseWalker:137 - select >> end [level=1, statement=select]
+2021-11-01 12:41:08 DEBUG QueryTranslatorImpl:279 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (User_Account_Table)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'account0_.user_id as user_id1_1_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=User_Account_Table,tableAlias=account0_,origin=null,columns={,className=socialMediaWebApp.models.Account}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'account0_.user_dob as user_dob2_1_, account0_.user_display_name as user_dis3_1_, account0_.user_first_name as user_fir4_1_, account0_.user_gender as user_gen5_1_, account0_.user_last_name as user_las6_1_, account0_.user_password as user_pas7_1_, account0_.user_profile_pic_url as user_pro8_1_, account0_.user_email as user_ema9_1_, account0_.user_username as user_us10_1_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[account0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'User_Account_Table account0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=User_Account_Table,tableAlias=account0_,origin=null,columns={,className=socialMediaWebApp.models.Account}}
+    \-[WHERE] SqlNode: 'where'
+       \-[AND] SqlNode: 'and'
+          +-[EQ] BinaryLogicOperatorNode: '='
+          |  +-[DOT] DotNode: 'account0_.user_username' {propertyName=username,dereferenceType=PRIMITIVE,getPropertyPath=username,path={synthetic-alias}.username,tableAlias=account0_,className=socialMediaWebApp.models.Account,classAlias=null}
+          |  |  +-[IDENT] IdentNode: '{synthetic-alias}' {originalText={synthetic-alias}}
+          |  |  \-[IDENT] IdentNode: 'username' {originalText=username}
+          |  \-[NAMED_PARAM] ParameterNode: '?' {name=username, expectedType=org.hibernate.type.StringType@3c2b7322}
+          \-[EQ] BinaryLogicOperatorNode: '='
+             +-[DOT] DotNode: 'account0_.user_password' {propertyName=password,dereferenceType=PRIMITIVE,getPropertyPath=password,path={synthetic-alias}.password,tableAlias=account0_,className=socialMediaWebApp.models.Account,classAlias=null}
+             |  +-[IDENT] IdentNode: '{synthetic-alias}' {originalText={synthetic-alias}}
+             |  \-[IDENT] IdentNode: 'password' {originalText=password}
+             \-[NAMED_PARAM] ParameterNode: '?' {name=password, expectedType=org.hibernate.type.StringType@3c2b7322}
+
+2021-11-01 12:41:08 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-11-01 12:41:08 DEBUG QueryTranslatorImpl:258 - HQL: from socialMediaWebApp.models.Account where username=:username and password=:password
+2021-11-01 12:41:08 DEBUG QueryTranslatorImpl:259 - SQL: select account0_.user_id as user_id1_1_, account0_.user_dob as user_dob2_1_, account0_.user_display_name as user_dis3_1_, account0_.user_first_name as user_fir4_1_, account0_.user_gender as user_gen5_1_, account0_.user_last_name as user_las6_1_, account0_.user_password as user_pas7_1_, account0_.user_profile_pic_url as user_pro8_1_, account0_.user_email as user_ema9_1_, account0_.user_username as user_us10_1_ from User_Account_Table account0_ where account0_.user_username=? and account0_.user_password=?
+2021-11-01 12:41:08 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-11-01 12:41:08 DEBUG SQL:144 - select account0_.user_id as user_id1_1_, account0_.user_dob as user_dob2_1_, account0_.user_display_name as user_dis3_1_, account0_.user_first_name as user_fir4_1_, account0_.user_gender as user_gen5_1_, account0_.user_last_name as user_las6_1_, account0_.user_password as user_pas7_1_, account0_.user_profile_pic_url as user_pro8_1_, account0_.user_email as user_ema9_1_, account0_.user_username as user_us10_1_ from User_Account_Table account0_ where account0_.user_username=? and account0_.user_password=?
+2021-11-01 12:41:08 DEBUG Loader:384 - Result set row: 0
+2021-11-01 12:41:08 DEBUG Loader:1595 - Result row: EntityKey[socialMediaWebApp.models.Account#1]
+2021-11-01 12:41:08 DEBUG TwoPhaseLoad:171 - Resolving attributes for [socialMediaWebApp.models.Account#1]
+2021-11-01 12:41:08 DEBUG TwoPhaseLoad:184 - Processing attribute `dOB` : value = null
+2021-11-01 12:41:08 DEBUG TwoPhaseLoad:215 - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:08 DEBUG TwoPhaseLoad:184 - Processing attribute `displayName` : value = null
+2021-11-01 12:41:08 DEBUG TwoPhaseLoad:215 - Attribute (`displayName`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:08 DEBUG TwoPhaseLoad:184 - Processing attribute `firstName` : value = Kyaw
+2021-11-01 12:41:08 DEBUG TwoPhaseLoad:215 - Attribute (`firstName`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:08 DEBUG TwoPhaseLoad:184 - Processing attribute `gender` : value = null
+2021-11-01 12:41:08 DEBUG TwoPhaseLoad:215 - Attribute (`gender`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:08 DEBUG TwoPhaseLoad:184 - Processing attribute `lastName` : value = Soe
+2021-11-01 12:41:08 DEBUG TwoPhaseLoad:215 - Attribute (`lastName`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:08 DEBUG TwoPhaseLoad:184 - Processing attribute `likedPosts` : value = NOT NULL COLLECTION
+2021-11-01 12:41:08 DEBUG TwoPhaseLoad:215 - Attribute (`likedPosts`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:08 DEBUG TwoPhaseLoad:184 - Processing attribute `myComments` : value = NOT NULL COLLECTION
+2021-11-01 12:41:08 DEBUG TwoPhaseLoad:215 - Attribute (`myComments`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:08 DEBUG TwoPhaseLoad:184 - Processing attribute `myPosts` : value = NOT NULL COLLECTION
+2021-11-01 12:41:08 DEBUG TwoPhaseLoad:215 - Attribute (`myPosts`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:08 DEBUG TwoPhaseLoad:184 - Processing attribute `password` : value = 123
+2021-11-01 12:41:08 DEBUG TwoPhaseLoad:215 - Attribute (`password`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:08 DEBUG TwoPhaseLoad:184 - Processing attribute `profilePicURL` : value = null
+2021-11-01 12:41:08 DEBUG TwoPhaseLoad:215 - Attribute (`profilePicURL`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:08 DEBUG TwoPhaseLoad:184 - Processing attribute `userEmail` : value = kyaw.soe@revature.net
+2021-11-01 12:41:08 DEBUG TwoPhaseLoad:215 - Attribute (`userEmail`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:08 DEBUG TwoPhaseLoad:184 - Processing attribute `username` : value = ksoe
+2021-11-01 12:41:08 DEBUG TwoPhaseLoad:215 - Attribute (`username`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:08 DEBUG TwoPhaseLoad:352 - Done materializing entity [socialMediaWebApp.models.Account#1]
+2021-11-01 12:41:08 INFO  LogginAspectRepositoryLayerAccount:56 - =====> @After: calling method: AccountDao.getMyAccount(..)
+	 ksoe
+2021-11-01 12:41:08 INFO  LogginAspect:33 - ====> @After: calling method: AccountDao.getMyAccount(..)
+2021-11-01 12:41:08 DEBUG TransactionImpl:98 - committing
+2021-11-01 12:41:08 DEBUG AbstractFlushingEventListener:140 - Processing flush-time cascades
+2021-11-01 12:41:08 DEBUG AbstractFlushingEventListener:193 - Dirty checking collections
+2021-11-01 12:41:08 DEBUG Collections:213 - Collection found: [socialMediaWebApp.models.Account.likedPosts#1], was: [socialMediaWebApp.models.Account.likedPosts#1] (uninitialized)
+2021-11-01 12:41:08 DEBUG Collections:213 - Collection found: [socialMediaWebApp.models.Account.myComments#1], was: [socialMediaWebApp.models.Account.myComments#1] (uninitialized)
+2021-11-01 12:41:08 DEBUG Collections:213 - Collection found: [socialMediaWebApp.models.Account.myPosts#1], was: [socialMediaWebApp.models.Account.myPosts#1] (uninitialized)
+2021-11-01 12:41:08 DEBUG AbstractFlushingEventListener:114 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2021-11-01 12:41:08 DEBUG AbstractFlushingEventListener:121 - Flushed: 0 (re)creations, 0 updates, 0 removals to 3 collections
+2021-11-01 12:41:08 DEBUG EntityPrinter:110 - Listing entities:
+2021-11-01 12:41:08 DEBUG EntityPrinter:117 - socialMediaWebApp.models.Account{lastName=Soe, gender=null, displayName=null, likedPosts=<uninitialized>, userId=1, myComments=<uninitialized>, firstName=Kyaw, password=123, profilePicURL=null, dOB=null, myPosts=<uninitialized>, userEmail=kyaw.soe@revature.net, username=ksoe}
+2021-11-01 12:41:08 DEBUG TransactionImpl:53 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2021-11-01 12:41:08 DEBUG TransactionImpl:81 - begin
+2021-11-01 12:41:09 DEBUG QueryTranslatorImpl:292 - parse() - HQL: from socialMediaWebApp.models.Post
+2021-11-01 12:41:09 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-11-01 12:41:09 DEBUG QueryTranslatorImpl:313 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       \-[FROM] Node: 'from'
+          \-[RANGE] Node: 'RANGE'
+             \-[DOT] Node: '.'
+                +-[DOT] Node: '.'
+                |  +-[IDENT] Node: 'socialMediaWebApp'
+                |  \-[IDENT] Node: 'models'
+                \-[IDENT] Node: 'Post'
+
+2021-11-01 12:41:09 DEBUG HqlSqlBaseWalker:129 - select << begin [level=1, statement=select]
+2021-11-01 12:41:09 DEBUG FromElement:153 - FromClause{level=1} : socialMediaWebApp.models.Post (<no alias>) -> post0_
+2021-11-01 12:41:09 DEBUG HqlSqlBaseWalker:133 - select : finishing up [level=1, statement=select]
+2021-11-01 12:41:09 DEBUG HqlSqlWalker:762 - processQuery() :  ( SELECT ( FromClause{level=1} Users_Post_Table post0_ ) )
+2021-11-01 12:41:09 DEBUG HqlSqlWalker:1038 - Derived SELECT clause created.
+2021-11-01 12:41:09 DEBUG JoinProcessor:129 - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Post): [Users_Post_Table]
+    |  +-SelectExpressionImpl
+    |  | persister: SingleTableEntityPersister(socialMediaWebApp.models.Post)
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+2021-11-01 12:41:09 DEBUG JoinProcessor:304 - Using FROM fragment [Users_Post_Table post0_]
+2021-11-01 12:41:09 DEBUG HqlSqlBaseWalker:137 - select >> end [level=1, statement=select]
+2021-11-01 12:41:09 DEBUG QueryTranslatorImpl:279 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Users_Post_Table)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'post0_.post_id as post_id1_3_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=Users_Post_Table,tableAlias=post0_,origin=null,columns={,className=socialMediaWebApp.models.Post}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'post0_.post_contents as post_con2_3_, post0_.post_number_likes as post_num3_3_, post0_.post_date as post_dat4_3_, post0_.post_pic_url as post_pic5_3_, post0_.user_Id as user_id6_3_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[post0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'Users_Post_Table post0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=Users_Post_Table,tableAlias=post0_,origin=null,columns={,className=socialMediaWebApp.models.Post}}
+
+2021-11-01 12:41:09 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-11-01 12:41:09 DEBUG QueryTranslatorImpl:258 - HQL: from socialMediaWebApp.models.Post
+2021-11-01 12:41:09 DEBUG QueryTranslatorImpl:259 - SQL: select post0_.post_id as post_id1_3_, post0_.post_contents as post_con2_3_, post0_.post_number_likes as post_num3_3_, post0_.post_date as post_dat4_3_, post0_.post_pic_url as post_pic5_3_, post0_.user_Id as user_id6_3_ from Users_Post_Table post0_
+2021-11-01 12:41:09 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2021-11-01 12:41:09 DEBUG SQL:144 - select post0_.post_id as post_id1_3_, post0_.post_contents as post_con2_3_, post0_.post_number_likes as post_num3_3_, post0_.post_date as post_dat4_3_, post0_.post_pic_url as post_pic5_3_, post0_.user_Id as user_id6_3_ from Users_Post_Table post0_
+2021-11-01 12:41:09 DEBUG Loader:384 - Result set row: 0
+2021-11-01 12:41:09 DEBUG Loader:1595 - Result row: EntityKey[socialMediaWebApp.models.Post#2]
+2021-11-01 12:41:09 DEBUG Loader:384 - Result set row: 1
+2021-11-01 12:41:09 DEBUG Loader:1595 - Result row: EntityKey[socialMediaWebApp.models.Post#1]
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:171 - Resolving attributes for [socialMediaWebApp.models.Post#2]
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `contents` : value = test3's post
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`contents`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `likes` : value = 6
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`likes`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `postComments` : value = NOT NULL COLLECTION
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`postComments`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `postDate` : value = 2021-10-31
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`postDate`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `postURL` : value = https://firebasestorage.googleapis.com/v0/b/delta-chess-326814.appspot.com/o/uploads%2F007.png?alt=media&token=5c6dd7a8-c328-438f-9c94-d1a89c417949
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`postURL`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `poster` : value = 5
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`poster`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG SQL:144 - select account0_.user_id as user_id1_1_0_, account0_.user_dob as user_dob2_1_0_, account0_.user_display_name as user_dis3_1_0_, account0_.user_first_name as user_fir4_1_0_, account0_.user_gender as user_gen5_1_0_, account0_.user_last_name as user_las6_1_0_, account0_.user_password as user_pas7_1_0_, account0_.user_profile_pic_url as user_pro8_1_0_, account0_.user_email as user_ema9_1_0_, account0_.user_username as user_us10_1_0_ from User_Account_Table account0_ where account0_.user_id=?
+2021-11-01 12:41:09 DEBUG EntityReferenceInitializerImpl:131 - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:171 - Resolving attributes for [socialMediaWebApp.models.Account#5]
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `dOB` : value = null
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `displayName` : value = null
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`displayName`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `firstName` : value = editedFname
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`firstName`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `gender` : value = null
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`gender`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `lastName` : value = editedLanme
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`lastName`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `likedPosts` : value = NOT NULL COLLECTION
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`likedPosts`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `myComments` : value = NOT NULL COLLECTION
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`myComments`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `myPosts` : value = NOT NULL COLLECTION
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`myPosts`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `password` : value = asd
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`password`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `profilePicURL` : value = https://firebasestorage.googleapis.com/v0/b/delta-chess-326814.appspot.com/o/uploads%2F007.png?alt=media&token=23232144-050a-4915-9e3a-24d546162534
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`profilePicURL`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `userEmail` : value = fakeEmail@email.com
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`userEmail`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `username` : value = test3
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`username`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:352 - Done materializing entity [socialMediaWebApp.models.Account#5]
+2021-11-01 12:41:09 DEBUG AbstractLoadPlanBasedEntityLoader:307 - Done entity load : socialMediaWebApp.models.Account#5
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:352 - Done materializing entity [socialMediaWebApp.models.Post#2]
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:171 - Resolving attributes for [socialMediaWebApp.models.Post#1]
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `contents` : value = test post
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`contents`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `likes` : value = 25
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`likes`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `postComments` : value = NOT NULL COLLECTION
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`postComments`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `postDate` : value = 2021-10-31
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`postDate`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `postURL` : value = https://firebasestorage.googleapis.com/v0/b/delta-chess-326814.appspot.com/o/uploads%2F001.png?alt=media&token=ee0451d5-7dd7-450e-8ef4-f3f8532976a0
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`postURL`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `poster` : value = 1
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`poster`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG SQL:144 - select account0_.user_id as user_id1_1_0_, account0_.user_dob as user_dob2_1_0_, account0_.user_display_name as user_dis3_1_0_, account0_.user_first_name as user_fir4_1_0_, account0_.user_gender as user_gen5_1_0_, account0_.user_last_name as user_las6_1_0_, account0_.user_password as user_pas7_1_0_, account0_.user_profile_pic_url as user_pro8_1_0_, account0_.user_email as user_ema9_1_0_, account0_.user_username as user_us10_1_0_ from User_Account_Table account0_ where account0_.user_id=?
+2021-11-01 12:41:09 DEBUG EntityReferenceInitializerImpl:131 - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:171 - Resolving attributes for [socialMediaWebApp.models.Account#1]
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `dOB` : value = null
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`dOB`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `displayName` : value = null
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`displayName`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `firstName` : value = Kyaw
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`firstName`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `gender` : value = null
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`gender`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `lastName` : value = Soe
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`lastName`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `likedPosts` : value = NOT NULL COLLECTION
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`likedPosts`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `myComments` : value = NOT NULL COLLECTION
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`myComments`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `myPosts` : value = NOT NULL COLLECTION
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`myPosts`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `password` : value = 123
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`password`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `profilePicURL` : value = null
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`profilePicURL`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `userEmail` : value = kyaw.soe@revature.net
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`userEmail`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:184 - Processing attribute `username` : value = ksoe
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:215 - Attribute (`username`)  - enhanced for lazy-loading? - false
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:352 - Done materializing entity [socialMediaWebApp.models.Account#1]
+2021-11-01 12:41:09 DEBUG AbstractLoadPlanBasedEntityLoader:307 - Done entity load : socialMediaWebApp.models.Account#1
+2021-11-01 12:41:09 DEBUG TwoPhaseLoad:352 - Done materializing entity [socialMediaWebApp.models.Post#1]
+2021-11-01 12:41:09 DEBUG AbstractLoadPlanBasedCollectionInitializer:73 - Loading collection: [socialMediaWebApp.models.Post.postComments#2]
+2021-11-01 12:41:09 DEBUG SQL:144 - select postcommen0_.post_comment_Id as post_com1_0_0_, postcommen0_.post_comment_Id as post_com1_0_1_, postcommen0_.post_comment_contents as post_com2_0_1_, postcommen0_.user_id as user_id3_0_1_, postcommen0_.post_id as post_id4_0_1_, account1_.user_id as user_id1_1_2_, account1_.user_dob as user_dob2_1_2_, account1_.user_display_name as user_dis3_1_2_, account1_.user_first_name as user_fir4_1_2_, account1_.user_gender as user_gen5_1_2_, account1_.user_last_name as user_las6_1_2_, account1_.user_password as user_pas7_1_2_, account1_.user_profile_pic_url as user_pro8_1_2_, account1_.user_email as user_ema9_1_2_, account1_.user_username as user_us10_1_2_, post2_.post_id as post_id1_3_3_, post2_.post_contents as post_con2_3_3_, post2_.post_number_likes as post_num3_3_3_, post2_.post_date as post_dat4_3_3_, post2_.post_pic_url as post_pic5_3_3_, post2_.user_Id as user_id6_3_3_, account3_.user_id as user_id1_1_4_, account3_.user_dob as user_dob2_1_4_, account3_.user_display_name as user_dis3_1_4_, account3_.user_first_name as user_fir4_1_4_, account3_.user_gender as user_gen5_1_4_, account3_.user_last_name as user_las6_1_4_, account3_.user_password as user_pas7_1_4_, account3_.user_profile_pic_url as user_pro8_1_4_, account3_.user_email as user_ema9_1_4_, account3_.user_username as user_us10_1_4_ from Post_Comment postcommen0_ left outer join User_Account_Table account1_ on postcommen0_.user_id=account1_.user_id left outer join Users_Post_Table post2_ on postcommen0_.post_id=post2_.post_id left outer join User_Account_Table account3_ on post2_.user_Id=account3_.user_id where postcommen0_.post_comment_Id=?
+2021-11-01 12:41:09 DEBUG ResultSetProcessorImpl:193 - Preparing collection initializer : [socialMediaWebApp.models.Post.postComments#2]
+2021-11-01 12:41:09 DEBUG CollectionLoadContext:394 - 1 collections were found in result set for role: socialMediaWebApp.models.Post.postComments
+2021-11-01 12:41:09 DEBUG CollectionLoadContext:303 - Collection fully initialized: [socialMediaWebApp.models.Post.postComments#2]
+2021-11-01 12:41:09 DEBUG CollectionLoadContext:394 - 1 collections initialized for role: socialMediaWebApp.models.Post.postComments
+2021-11-01 12:41:09 DEBUG AbstractLoadPlanBasedCollectionInitializer:105 - Done loading collection
+2021-11-01 12:41:09 DEBUG AbstractLoadPlanBasedCollectionInitializer:73 - Loading collection: [socialMediaWebApp.models.Post.postComments#1]
+2021-11-01 12:41:09 DEBUG SQL:144 - select postcommen0_.post_comment_Id as post_com1_0_0_, postcommen0_.post_comment_Id as post_com1_0_1_, postcommen0_.post_comment_contents as post_com2_0_1_, postcommen0_.user_id as user_id3_0_1_, postcommen0_.post_id as post_id4_0_1_, account1_.user_id as user_id1_1_2_, account1_.user_dob as user_dob2_1_2_, account1_.user_display_name as user_dis3_1_2_, account1_.user_first_name as user_fir4_1_2_, account1_.user_gender as user_gen5_1_2_, account1_.user_last_name as user_las6_1_2_, account1_.user_password as user_pas7_1_2_, account1_.user_profile_pic_url as user_pro8_1_2_, account1_.user_email as user_ema9_1_2_, account1_.user_username as user_us10_1_2_, post2_.post_id as post_id1_3_3_, post2_.post_contents as post_con2_3_3_, post2_.post_number_likes as post_num3_3_3_, post2_.post_date as post_dat4_3_3_, post2_.post_pic_url as post_pic5_3_3_, post2_.user_Id as user_id6_3_3_, account3_.user_id as user_id1_1_4_, account3_.user_dob as user_dob2_1_4_, account3_.user_display_name as user_dis3_1_4_, account3_.user_first_name as user_fir4_1_4_, account3_.user_gender as user_gen5_1_4_, account3_.user_last_name as user_las6_1_4_, account3_.user_password as user_pas7_1_4_, account3_.user_profile_pic_url as user_pro8_1_4_, account3_.user_email as user_ema9_1_4_, account3_.user_username as user_us10_1_4_ from Post_Comment postcommen0_ left outer join User_Account_Table account1_ on postcommen0_.user_id=account1_.user_id left outer join Users_Post_Table post2_ on postcommen0_.post_id=post2_.post_id left outer join User_Account_Table account3_ on post2_.user_Id=account3_.user_id where postcommen0_.post_comment_Id=?
+2021-11-01 12:41:09 DEBUG ResultSetProcessorImpl:193 - Preparing collection initializer : [socialMediaWebApp.models.Post.postComments#1]
+2021-11-01 12:41:09 DEBUG CollectionLoadContext:394 - 1 collections were found in result set for role: socialMediaWebApp.models.Post.postComments
+2021-11-01 12:41:09 DEBUG CollectionLoadContext:303 - Collection fully initialized: [socialMediaWebApp.models.Post.postComments#1]
+2021-11-01 12:41:09 DEBUG CollectionLoadContext:394 - 1 collections initialized for role: socialMediaWebApp.models.Post.postComments
+2021-11-01 12:41:09 DEBUG AbstractLoadPlanBasedCollectionInitializer:105 - Done loading collection
+2021-11-01 12:41:09 INFO  LogginAspect:33 - ====> @After: calling method: PostDao.getAllPosts()
+2021-11-01 12:41:09 DEBUG TransactionImpl:98 - committing
+2021-11-01 12:41:09 DEBUG AbstractFlushingEventListener:140 - Processing flush-time cascades
+2021-11-01 12:41:09 DEBUG AbstractFlushingEventListener:193 - Dirty checking collections
+2021-11-01 12:41:09 DEBUG Collections:196 - Collection found: [socialMediaWebApp.models.Post.postComments#2], was: [socialMediaWebApp.models.Post.postComments#2] (initialized)
+2021-11-01 12:41:09 DEBUG Collections:196 - Collection found: [socialMediaWebApp.models.Post.postComments#1], was: [socialMediaWebApp.models.Post.postComments#1] (initialized)
+2021-11-01 12:41:09 DEBUG Collections:213 - Collection found: [socialMediaWebApp.models.Account.likedPosts#5], was: [socialMediaWebApp.models.Account.likedPosts#5] (uninitialized)
+2021-11-01 12:41:09 DEBUG Collections:213 - Collection found: [socialMediaWebApp.models.Account.myComments#5], was: [socialMediaWebApp.models.Account.myComments#5] (uninitialized)
+2021-11-01 12:41:09 DEBUG Collections:213 - Collection found: [socialMediaWebApp.models.Account.myPosts#5], was: [socialMediaWebApp.models.Account.myPosts#5] (uninitialized)
+2021-11-01 12:41:09 DEBUG Collections:213 - Collection found: [socialMediaWebApp.models.Account.likedPosts#1], was: [socialMediaWebApp.models.Account.likedPosts#1] (uninitialized)
+2021-11-01 12:41:09 DEBUG Collections:213 - Collection found: [socialMediaWebApp.models.Account.myComments#1], was: [socialMediaWebApp.models.Account.myComments#1] (uninitialized)
+2021-11-01 12:41:09 DEBUG Collections:213 - Collection found: [socialMediaWebApp.models.Account.myPosts#1], was: [socialMediaWebApp.models.Account.myPosts#1] (uninitialized)
+2021-11-01 12:41:09 DEBUG AbstractFlushingEventListener:114 - Flushed: 0 insertions, 0 updates, 0 deletions to 4 objects
+2021-11-01 12:41:09 DEBUG AbstractFlushingEventListener:121 - Flushed: 0 (re)creations, 0 updates, 0 removals to 8 collections
+2021-11-01 12:41:09 DEBUG EntityPrinter:110 - Listing entities:
+2021-11-01 12:41:09 DEBUG EntityPrinter:117 - socialMediaWebApp.models.Account{lastName=editedLanme, gender=null, displayName=null, likedPosts=<uninitialized>, userId=5, myComments=<uninitialized>, firstName=editedFname, password=asd, profilePicURL=https://firebasestorage.googleapis.com/v0/b/delta-chess-326814.appspot.com/o/uploads%2F007.png?alt=media&token=23232144-050a-4915-9e3a-24d546162534, dOB=null, myPosts=<uninitialized>, userEmail=fakeEmail@email.com, username=test3}
+2021-11-01 12:41:09 DEBUG EntityPrinter:117 - socialMediaWebApp.models.Post{postComments=[], postURL=https://firebasestorage.googleapis.com/v0/b/delta-chess-326814.appspot.com/o/uploads%2F001.png?alt=media&token=ee0451d5-7dd7-450e-8ef4-f3f8532976a0, contents=test post, postDate=2021-10-31, postId=1, poster=socialMediaWebApp.models.Account#1, likes=25}
+2021-11-01 12:41:09 DEBUG EntityPrinter:117 - socialMediaWebApp.models.Post{postComments=[], postURL=https://firebasestorage.googleapis.com/v0/b/delta-chess-326814.appspot.com/o/uploads%2F007.png?alt=media&token=5c6dd7a8-c328-438f-9c94-d1a89c417949, contents=test3's post, postDate=2021-10-31, postId=2, poster=socialMediaWebApp.models.Account#5, likes=6}
+2021-11-01 12:41:09 DEBUG EntityPrinter:117 - socialMediaWebApp.models.Account{lastName=Soe, gender=null, displayName=null, likedPosts=<uninitialized>, userId=1, myComments=<uninitialized>, firstName=Kyaw, password=123, profilePicURL=null, dOB=null, myPosts=<uninitialized>, userEmail=kyaw.soe@revature.net, username=ksoe}
+2021-11-01 12:41:17 DEBUG TransactionImpl:53 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2021-11-01 12:41:17 DEBUG TransactionImpl:81 - begin
+2021-11-01 12:41:17 DEBUG SQL:144 - select account0_.user_id as user_id1_1_, account0_.user_dob as user_dob2_1_, account0_.user_display_name as user_dis3_1_, account0_.user_first_name as user_fir4_1_, account0_.user_gender as user_gen5_1_, account0_.user_last_name as user_las6_1_, account0_.user_password as user_pas7_1_, account0_.user_profile_pic_url as user_pro8_1_, account0_.user_email as user_ema9_1_, account0_.user_username as user_us10_1_ from User_Account_Table account0_ where account0_.user_username=? and account0_.user_password=?
+2021-11-01 12:41:17 INFO  LogginAspect:33 - ====> @After: calling method: AccountDao.getMyAccount(..)
+2021-11-01 12:41:17 DEBUG TransactionImpl:139 - rolling back
+2021-11-01 12:41:18 ERROR ErrorLogging:298 - Failure Occured during this method call: SessionAccountController.login(..)
+ Exception: java.lang.NullPointerException
+2021-11-01 12:41:53 DEBUG SessionFactoryImpl:808 - HHH000031: Closing
+2021-11-01 12:41:53 DEBUG TypeConfiguration$Scope:345 - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@3389c69d] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@1d2ec1f]
+2021-11-01 12:41:53 DEBUG AbstractServiceRegistryImpl:419 - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2021-11-01 12:41:53 DEBUG BootstrapServiceRegistryImpl:295 - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries

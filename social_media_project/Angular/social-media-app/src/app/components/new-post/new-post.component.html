@@ -1,0 +1,32 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <div class="d-flex justify-content-center">
+    <div class="col-md-11">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <strong> User | <span class="red-letters">{{currentUser.username}}</span></strong>
+        </div>
+        <div class="col-md-11 panel-default shadow p-3 mb-5 bg-body rounded">
+          <div class="panel">
+            <div class="panel-body" style="padding: 0px">
+              <textarea class="form-control" [(ngModel)]="unsubmittedContent" rows="5" ng-model="cmtName"
+                style="padding: 0px; border: none" placeholder="Create your message"></textarea>
+            </div>
+          </div>
+        </div>
+        <span>
+          <label for="file-upload" class="btn my-file-upload">
+            Custom Upload
+        </label>
+        <input (change)="this.onFileChange($event)" class="custom-file-input" id="file-upload" name="postImage" type="file"accept="image/*">
+        </span>
+        <span>
+          <button class="btn submit-button" id="submitComment" type="button"(click)="createPost()" style="float:right">Submit</button>
+        </span>
+        <div *ngIf="postImage!=null">
+          <img src={{postImage}} />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

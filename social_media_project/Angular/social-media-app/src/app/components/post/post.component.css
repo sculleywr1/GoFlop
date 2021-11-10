@@ -1,0 +1,41 @@
+.container {
+    margin-top: 2rem;
+    color: #fff;
+}
+
+img {
+    height: 13rem;
+    margin-left: 35%;
+}
+
+.panel-body {
+    min-width: 30rem;
+    color: #111;
+    font-size: 1.25rem;
+    text-align: center;
+    border: 0.2rem solid #dc143ca9;
+    box-shadow: 5px 5px #dc143ca9;
+    
+}
+
+.jumbotron {
+    background-color: #fff;
+    min-width: 40rem;
+    box-shadow: 5px 6px crimson;
+}
+
+.btn {
+    color: crimson;
+}
+
+i {
+    color: crimson;
+    float: right;
+}
+
+.like-num {
+    color: crimson;
+    margin-left: 0.5rem;
+}
+
+

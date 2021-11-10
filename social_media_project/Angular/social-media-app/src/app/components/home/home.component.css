@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .container > div
+{
+    text-align: center;
+    width: 600px;
+    height: 100vh;
+    background-color: red;
+    border: 3px solid;
+}
+.container
+{
+    margin-left: 0;
+    display: flex;
+    margin-left: 25%;
+    justify-content: space-evenly;
+    
+}
+.postContainer
+{
+    display: inline-block;
+}
+
+.profileContainer{
+    
+    float:left;
+}
+
+.searchPostsContainer
+{
+    float: right;
+} */
+
+.logout-btn {
+    margin-right: 2rem;
+    padding: .1rem;
+}
+
+nav {
+    padding: 1rem;
+}
+
+.posts {
+    margin-left: 55%;
+}

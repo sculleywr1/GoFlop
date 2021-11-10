@@ -1,0 +1,58 @@
+.container {
+    margin-top: 2rem;
+}
+
+.btn {
+    max-width: 10rem;
+}
+
+.my-file-upload {
+
+    background: crimson;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    font-weight: 400;
+    border: 0.2rem solid crimson;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    cursor:pointer;
+
+}
+
+.my-file-upload:hover {
+    background-color: #fff;
+    border: 0.2rem solid #fff;
+    color: crimson;
+}
+
+.submit-button {
+    margin-right: 8rem;
+    margin-top: -5.5rem;
+    background: crimson;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    font-weight: 400;
+    border: 0.2rem solid crimson;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    cursor:pointer;
+}
+
+.submit-button:hover {
+    background-color: #fff;
+    border: 0.2rem solid #fff;
+    color: crimson;
+}
+
+
+textarea:focus::placeholder {
+    color: transparent;
+}
+
+img {
+    height: 13rem;
+}

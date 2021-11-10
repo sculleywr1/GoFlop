@@ -1,0 +1,91 @@
+.user-search{
+    background: crimson;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: all 0.3s ease;
+    cursor:pointer;
+}
+
+.user-search:hover {
+    background: #fff;
+    color: crimson;
+    border-left: 1px solid crimson;
+    font-weight: 400;
+}
+
+.form-control:focus::placeholder {
+    color: transparent;
+}
+
+
+.search-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+img {
+    height: 13rem;
+}
+
+.profile-card {
+  color:#fff;
+  text-align: center;
+  max-width: 50rem;
+  padding: 1rem;
+  margin-left: 9rem;
+  background-color: #00094e;
+  border-radius: 0.6rem;
+}
+
+.my-btn {
+    background: crimson;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    border: 0.1rem solid crimson;
+    transition: all 0.3s ease;
+}
+
+.my-btn:hover {
+    background: #fff;
+    color: crimson;
+    border: 0.2rem solid #fff;
+    font-weight: 400;
+    border: 0.1rem solid crimson;
+}
+
+
+.panel-body {
+    min-width: 30rem;
+    color: #111;
+    font-size: 1.25rem;
+    text-align: center;
+    border: 0.2rem solid #dc143ca9;
+    box-shadow: 5px 5px #dc143ca9;
+    
+}
+
+.jumbotron {
+    background-color: #fff;
+    min-width: 40rem;
+    box-shadow: 5px 6px crimson;
+}
+
+i {
+    color: crimson;
+    float: right;
+}
+
+.like-num {
+    color: crimson;
+    margin-left: 0.5rem;
+}
+
+.post-container {
+    margin-top: 2rem;
+    margin-left: 32rem;
+}

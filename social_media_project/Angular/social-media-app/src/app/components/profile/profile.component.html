@@ -1,0 +1,60 @@
+<app-navbar></app-navbar>
+<!--Search-->
+<div class="container search-container">
+  <div class="input-group mb-3">
+    <input class="form-control" placeholder="Search for users" [(ngModel)]="userSearch">
+    <div class="input-group-append">
+      <button class="btn user-search" type="button" (click)="searchForUser()"><i
+          class="fas fa-search"></i> Search</button>
+    </div>
+  </div>
+</div>
+
+<!--User Profile-->
+<div class="container">
+  <div class="card profile-card">
+    <div class="profile">
+      <div *ngIf="currentUser.profilePicURL==null; else showimage">
+        <img src="http://via.placeholder.com/350x150" />
+      </div>
+      <ng-template #showimage>
+        <img src={{currentUser.profilePicURL}} />
+      </ng-template>
+    </div>
+    <div class="content prof-item">
+      <p *ngIf="currentUser.firstName!=null">{{currentUser.firstName}} {{currentUser.lastName}}</p>
+      <p *ngIf="currentUser.username!=null">Username: {{currentUser.username}}</p>
+      <p *ngIf="currentUser.userEmail!=null">Email: {{currentUser.userEmail}}</p>
+      <p *ngIf="currentUser.gender!=null">Gender: {{currentUser.gender}}</p>
+      <p *ngIf="currentUser.dOB!=null">DOB: {{currentUser.dOB}}</p>
+      <button id="edit-profile" (click)="editProfile()" type="submit" class="btn my-btn">Edit Profile</button>
+    </div>
+  </div>
+</div>
+
+<!-- Posts -->
+<div class="container post-container">
+  <div class="col-md-9">
+    <ol style="padding:0px">
+      <li *ngFor="let post of postList" style="list-style-type: none">
+        <div>Posted by <span class="red-letters">{{post.poster.username}}</span></div>
+        <div class="row no-gutters jumbotron">
+          <div class="col-md-11">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <button style="float: right" type="button" class="btn" (click)="likePost(post)"> <i class="fas fa-trash"><span class="like-num">{{post.likes}}</span></i></button>
+              </div>
+              <div *ngIf="post.postURL == null; else showImage">
+                <div class="panel-body"> {{filter.clean(post.contents)}} </div><!-- /panel-body -->
+              </div>
+              <ng-template #showImage>
+                <img src={{post.postURL}} />
+                <div class="panel-body"> {{filter.clean(post.contents)}} </div><!-- /panel-body -->
+              </ng-template>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ol>
+  </div>
+</div>

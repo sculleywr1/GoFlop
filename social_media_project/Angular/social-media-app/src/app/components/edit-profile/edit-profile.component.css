@@ -1,0 +1,36 @@
+label {
+    color: #fff;
+}
+
+.jumbotron  {
+    color: #fff;
+    background-color: #000428;
+}
+
+.modal-body {
+    /* background: #000428; */
+    color: #fff;
+}
+
+.modal-header {
+    color: crimson;
+}
+
+.btn {
+    background: crimson;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    margin-top: 1rem;
+    font-weight: 400;
+    border: 0.2rem solid crimson;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: #fff;
+    color: crimson;
+    border: 0.2rem solid #fff;
+    font-weight: 400;
+    border: 0.2rem solid crimson;
+}
